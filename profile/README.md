@@ -1,23 +1,23 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-bw-dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-bw-light.svg?v=2">
-    <img alt="Rawased | رواصد - Saudi & US Financial Filing & Quant Terminal" src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-bw-dark.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-light-1600x500.png">
+    <img alt="Rawased | رواصد - Saudi & US Financial Filing & Quant Terminal" src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png" width="100%">
   </picture>
 
   <br/>
 
-  <h2>Rawased (رواصد) - Saudi (Tadawul / Nomu) &amp; US (NYSE / Nasdaq / SEC) Financial Filing &amp; Quant Platform</h2>
+  <h2>Rawased (رواصد) · Audited filings, reconciled to the footnote.</h2>
 
   <p>
-    <b>Audited Filing Reconciliation (<code>DISAGREES</code> Guard) · <code>CAST</code> &amp; <code>DDIS</code> Credit Stacks · ZATCA Zakat Bridges · Deterministic DCF Sandbox</b>
+    When a quote feed and Note 14 disagree, we show the diff (<code>DISAGREES</code>), the Zakat base, the Murabaha and Sukuk stack (<code>CAST</code> / <code>DDIS</code>), Saudi <code>EOSB</code>, and the Reverse DCF math.
   </p>
 
   <p>
-    <a href="https://rawased.com"><img src="https://img.shields.io/badge/Company_%26_Docs-rawased.com-0A0A0A?style=for-the-badge&logoColor=white" alt="Company Site"/></a>
+    <a href="https://rawased.com"><img src="https://img.shields.io/badge/Company_%26_Docs-rawased.com-09090B?style=for-the-badge&logoColor=white" alt="Company Site"/></a>
     <a href="https://app.rawased.com"><img src="https://img.shields.io/badge/Live_Terminal-app.rawased.com-10B981?style=for-the-badge&logoColor=white" alt="Live Terminal"/></a>
-    <a href="https://github.com/Rawased/rawased-python"><img src="https://img.shields.io/badge/Python_SDK-rawased--python-0F172A?style=for-the-badge" alt="Python SDK"/></a>
-    <a href="https://github.com/Rawased/rawased-mcp"><img src="https://img.shields.io/badge/18--Tool_MCP-rawased--mcp-1E293B?style=for-the-badge" alt="MCP Server"/></a>
+    <a href="https://rawased.com/bridges"><img src="https://img.shields.io/badge/The_5_Bridges-rawased.com%2Fbridges-111827?style=for-the-badge" alt="5 Bridges"/></a>
+    <a href="https://rawased.com/brand-lab"><img src="https://img.shields.io/badge/Brand_&_Logo_Lab-rawased.com%2Fbrand--lab-1E293B?style=for-the-badge" alt="Brand Lab"/></a>
   </p>
 </div>
 

@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<!-- edited: agy/markets-dev 2026-10-25 01:18 - Rawased Brand & Logo Ideation Lab v3.0 (36 SVG Marks, Optical Tell Diagnostics, 10D Matrix, 6 Palettes, Burstiness Copy Lab, Live Preview) -->
+<html lang="en" dir="ltr" data-theme="bw-dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rawased (رواصد) · Brand &amp; Logo Ideation Lab v3.0</title>
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #09090B;
+      --surface: #121215;
+      --surface-2: #18181C;
+      --border: #27272A;
+      --fg: #FAFAFA;
+      --muted: #A1A1AA;
+      --up-tick: #10B981;
+      --down-tick: #F43F5E;
+      --accent: #10B981;
+      --good: #10B981;
+      --warn: #D97706;
+      --bad: #F43F5E;
+      --font-sans: 'IBM Plex Sans', 'IBM Plex Sans Arabic', -apple-system, sans-serif;
+      --font-ar: 'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif;
+      --font-mono: 'IBM Plex Mono', monospace;
+      --font-display: 'Fraunces', Georgia, serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--font-sans);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: color-mix(in srgb, var(--bg) 90%, transparent);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+    .topbar-inner {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-id {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .brand-id svg {
+      width: 34px;
+      height: 34px;
+      padding: 4px;
+      border-radius: 8px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+    .brand-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 5px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--up-tick);
+    }
+    .palette-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .pal-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .pal-btn.active, .pal-btn:hover {
+      color: var(--fg);
+      border-color: var(--up-tick);
+      background: var(--surface-2);
+    }
+    .pal-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+    .nav-tabs {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      border-top: 1px solid var(--border);
+    }
+    .tab-btn {
+      padding: 11px 15px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .tab-btn:hover { color: var(--fg); }
+    .tab-btn.active {
+      color: var(--fg);
+      border-bottom-color: var(--up-tick);
+      background: color-mix(in srgb, var(--surface) 60%, transparent);
+    }
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 32px 24px 80px;
+    }
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+    .hero-banner {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 0.65fr;
+      gap: 24px;
+      align-items: center;
+    }
+    @media (max-width: 960px) {
+      .hero-banner { grid-template-columns: 1fr; }
+    }
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--up-tick);
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: clamp(26px, 3.2vw, 40px);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+      margin: 0 0 12px;
+    }
+    h2 {
+      font-size: 22px;
+      letter-spacing: -0.015em;
+      margin: 0 0 8px;
+    }
+    h3 {
+      font-size: 16px;
+      margin: 0 0 6px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14.5px;
+      margin: 0 0 16px;
+      max-width: 760px;
+    }
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .stat-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .stat-num {
+      font-family: var(--font-mono);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--fg);
+    }
+    .stat-lbl {
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+    .filter-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .fam-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .fam-pill {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .fam-pill.active, .fam-pill:hover {
+      color: var(--fg);
+      border-color: var(--up-tick);
+      background: var(--surface-2);
+    }
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 16px;
+    }
+    .logo-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      cursor: pointer;
+      transition: transform 0.14s ease, border-color 0.14s ease;
+    }
+    .logo-card:hover, .logo-card.selected {
+      border-color: var(--up-tick);
+      transform: translateY(-2px);
+    }
+    .logo-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .score-pill {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      background: color-mix(in srgb, var(--up-tick) 16%, transparent);
+      color: var(--up-tick);
+      border: 1px solid color-mix(in srgb, var(--up-tick) 40%, transparent);
+    }
+    .logo-stage {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .logo-stage-main {
+      width: 128px;
+      height: 128px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .logo-stage-main svg {
+      width: 116px;
+      height: 116px;
+    }
+    .scale-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding-left: 12px;
+      border-left: 1px dashed var(--border);
+    }
+    .scale-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--muted);
+    }
+    .logo-desc {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin: 0;
+    }
+    .card-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 18px;
+    }
+    .card-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .tell-bad {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: rgba(244,63,94,0.14);
+      color: #F43F5E;
+      border: 1px solid rgba(244,63,94,0.35);
+      margin-bottom: 6px;
+    }
+    .tell-good {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: rgba(16,185,129,0.14);
+      color: #10B981;
+      border: 1px solid rgba(16,185,129,0.35);
+      margin-bottom: 6px;
+    }
+    table.bench-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+    }
+    table.bench-table th, table.bench-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    table.bench-table th {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      background: var(--surface-2);
+    }
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .swatch-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--surface);
+      cursor: pointer;
+    }
+    .swatch-color {
+      height: 84px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 10px 12px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .swatch-meta {
+      padding: 12px;
+      font-size: 12px;
+    }
+    .code-pre {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      overflow-x: auto;
+      color: var(--fg);
+      margin: 10px 0 0;
+    }
+    .ar-sample {
+      font-family: var(--font-ar);
+      direction: rtl;
+      letter-spacing: normal !important;
+      line-height: 1.75;
+    }
+    .btn-action {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--up-tick);
+      background: color-mix(in srgb, var(--up-tick) 16%, transparent);
+      color: var(--fg);
+      cursor: pointer;
+    }
+    .btn-action:hover {
+      background: var(--up-tick);
+      color: #09090B;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-id">
+        <span id="header-live-logo"></span>
+        <div>
+          <div>RAWASED <span style="color:var(--muted);font-weight:400">|</span> <span style="font-family:var(--font-ar)">رواصد</span></div>
+          <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--muted)">BRAND &amp; LOGO IDEATION LAB v3.0 · 11 PILLARS</div>
+        </div>
+        <span class="brand-badge">FLAGSHIP: K2 UP/DOWN KINETIC VAULT (9.8/10)</span>
+      </div>
+      <div class="palette-bar" id="palette-switcher"></div>
+      <div style="display:flex;gap:8px">
+        <a class="pal-btn" href="/">← rawased.com</a>
+        <a class="pal-btn" href="/bridges">5 Bridges</a>
+        <a class="pal-btn" href="/terminal">Open Terminal ↗</a>
+      </div>
+    </div>
+    <nav class="nav-tabs" id="main-tabs">
+      <button class="tab-btn active" data-tab="logos">01 · Logo Ideation Lab (36 Marks)</button>
+      <button class="tab-btn" data-tab="anatomy">02 · Optical Tells &amp; Scale Lab</button>
+      <button class="tab-btn" data-tab="benchmark">03 · 10D Benchmark Matrix</button>
+      <button class="tab-btn" data-tab="colors">04 · Color &amp; WCAG 2.2 Lab</button>
+      <button class="tab-btn" data-tab="typography">05 · Bilingual Typography Lab</button>
+      <button class="tab-btn" data-tab="copylab">06 · Copy, Burstiness &amp; PR Lab</button>
+      <button class="tab-btn" data-tab="decks">07 · Deck &amp; 3-Tier Zoom System</button>
+      <button class="tab-btn" data-tab="showcase">08 · Live Cross-Pillar Showcase</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- TAB 1: LOGO LAB -->
+    <section class="tab-pane active" id="tab-logos">
+      <div class="hero-banner">
+        <div>
+          <div class="eyebrow">PILLAR 01 · SOVEREIGN SEMITICS &amp; ARCHITECTURAL GEOMETRY</div>
+          <h1>The 180° Interlocking Up/Down Kinetic Vault (`K2`).</h1>
+          <p class="sub">
+            Why our v3.0 Flagship mark achieves a <b>9.8/10</b> benchmark score: it preserves the exact heavy rounded-square silhouette of the original Rawased/Byan emblem while transforming the two interior beams into <b>opposing 180°-symmetric stock impulses</b>.
+            The <b>Left Vault Arm plunges DOWN from the ceiling</b> (Top-Down Audited Filing to the Floor / Bearish Pullback) and the <b>Right Vault Arm surges UP from the floor</b> (Bottom-Up Intrinsic Valuation / Bullish Breakout), terminating in razor-sharp <b>45° kinetic impulse facets</b> with an unbroken central <b>Observatory Meridian Slit (`راصد`)</b>.
+          </p>
+          <div class="stat-row">
+            <div class="stat-box"><div class="stat-num">36</div><div class="stat-lbl">Hand-Crafted SVG Marks</div></div>
+            <div class="stat-box"><div class="stat-num">6</div><div class="stat-lbl">Architectural Families</div></div>
+            <div class="stat-box"><div class="stat-num">180°</div><div class="stat-lbl">C2 Rotational Parity</div></div>
+            <div class="stat-box"><div class="stat-num">0</div><div class="stat-lbl">False Optical Tells (!i / Syringe)</div></div>
+          </div>
+        </div>
+        <div class="panel" style="display:flex;flex-direction:column;align-items:center;gap:14px;background:var(--bg)">
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--muted)" id="active-logo-title">ACTIVE MASTER: A1 · K2 Flagship Up/Down Kinetic Vault</div>
+          <div id="hero-selected-svg" style="width:190px;height:190px"></div>
+          <div style="display:flex;gap:10px;align-items:center" id="hero-scale-strip"></div>
+          <button class="btn-action" id="copy-active-svg-btn">Copy Active SVG Code</button>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <div class="fam-pills" id="family-filters">
+          <button class="fam-pill active" data-fam="ALL">All 36 Marks</button>
+          <button class="fam-pill" data-fam="A">Family A · Interlocking Up/Down Vault (Flagship)</button>
+          <button class="fam-pill" data-fam="B">Family B · OHLC Candlestick &amp; Order Book</button>
+          <button class="fam-pill" data-fam="C">Family C · The 5 Bridges &amp; DISAGREES</button>
+          <button class="fam-pill" data-fam="D">Family D · Arabic Kufic (رواصد / ر+ص)</button>
+          <button class="fam-pill" data-fam="E">Family E · Observatory Reticle (راصد)</button>
+          <button class="fam-pill" data-fam="F">Family F · 4x4 Rotational Matrix</button>
+        </div>
+      </div>
+
+      <div class="logo-grid" id="logo-cards-container"></div>
+    </section>
+
+    <!-- TAB 2: OPTICAL TELLS & ANATOMY -->
+    <section class="tab-pane" id="tab-anatomy">
+      <div class="eyebrow">PILLAR 02 · EMPIRICAL VISUAL DIAGNOSTICS (DECKS.MD &amp; BEYNA LAB LAWS)</div>
+      <h1>Four Optical Traps Eliminated Through Visual Inspection.</h1>
+      <p class="sub">
+        Per <code>DECKS.md</code> Principle 1 (<i>"Look at it before you ship it"</i>) and the Medida visual-tell law (<i>"monotonic lengths off an axis read as a generic bar chart"</i>), we rendered and audited 30+ structural candidates at <code>1024px</code>, <code>48px</code>, and <code>16px</code>. Here are the four optical traps we discovered and how the v3.0 Flagship (`K2`) solves every one:
+      </p>
+      <div class="card-grid-2" style="margin-top:20px">
+        <div class="panel">
+          <span class="tell-bad">TRAP 01 · THE "GENERIC BAR CHART" TELL</span>
+          <h3>Both Bars Rising from the Bottom Floor</h3>
+          <p class="sub" style="margin-bottom:10px">When both interior bars enter from the bottom wall (`y=85`) and point in the same upward direction, the mark only represents "Up and Up" and reads like a generic two-column bar chart.</p>
+          <span class="tell-good">SOLVED IN K2 · 180° OPPOSING TOP-DOWN &amp; BOTTOM-UP INTERLOCK</span>
+          <p style="font-size:13px;margin:0">In <b>K2</b>, the Left Vault Arm plunges <b>DOWN from the top ceiling</b> (`y=11 → 55.5`) while the Right Vault Arm surges <b>UP from the bottom floor</b> (`y=89 → 44.5`), creating true opposing market vectors (`↓ ↑`).</p>
+        </div>
+        <div class="panel">
+          <span class="tell-bad">TRAP 02 · THE "AUDIO PLUG / SYRINGE" TELL</span>
+          <h3>Stepped Wider Boxes or Thin 3px Needle Tips on 8px Pipes</h3>
+          <p class="sub" style="margin-bottom:10px">When an `8px` pipe turns a corner from the outer frame and narrows into a `3px` thin wick tip (or bulges to `12px` in the middle), human visual perception reads a syringe needle or RCA audio jack.</p>
+          <span class="tell-good">SOLVED IN K2 · 100% UNIFORM 8PX ARCHITECTURAL STROKE WEIGHT</span>
+          <p style="font-size:13px;margin:0">Every structural wall, interior beam, and kinetic impulse facet in <b>K2</b> maintains an exact `8.0px` width (`x=37.5..45.5` and `x=54.5..62.5`). Zero thin needles, zero bulges.</p>
+        </div>
+        <div class="panel">
+          <span class="tell-bad">TRAP 03 · THE "! i PUNCTUATION" TELL</span>
+          <h3>Square Dots Separated Above/Below Vertical Stems</h3>
+          <p class="sub" style="margin-bottom:10px">Placing a flat `8x8` square below the left descending bar and above the right ascending bar causes the brain's typographic parser to read an exclamation mark and lowercase `i` (`! i`).</p>
+          <span class="tell-good">SOLVED IN K2 · 45° KINETIC CHEVRON IMPULSE FACETS</span>
+          <p style="font-size:13px;margin:0">By shearing the beam terminals and impulse facets at a crisp <b>45° angle</b> (`polygon 37.5,52.5 → 45.5,60.5`), the eye reads directional velocity and stock breakout/pullback vectors instead of punctuation.</p>
+        </div>
+        <div class="panel">
+          <span class="tell-bad">TRAP 04 · THE "G t LETTERFORM" TELL</span>
+          <h3>90° Horizontal Crossbars on Vertical Columns</h3>
+          <p class="sub" style="margin-bottom:10px">Adding perpendicular horizontal ticks across the vertical columns causes the outer loop + crossbar to read as the Latin letters `G t` at `24px` scale.</p>
+          <span class="tell-good">SOLVED IN K2 · UNBROKEN 9PX CENTRAL OBSERVATORY MERIDIAN SLIT</span>
+          <p style="font-size:13px;margin:0">The central channel (`x=45.5..54.5`) runs unobstructed from `y=11` to `y=89`, acting as the precision optical slit of a financial observatory (`مرصد مالي`).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: 10D BENCHMARK MATRIX -->
+    <section class="tab-pane" id="tab-benchmark">
+      <div class="eyebrow">PILLAR 03 · V103 QUANTITATIVE IDENTITY BENCHMARKING</div>
+      <h1>10-Dimension Weighted Evaluation Matrix Across All 36 Marks.</h1>
+      <p class="sub">Every candidate is scored objectively across 10 weighted criteria: 16px Legibility (15%), Stock Up/Down Semiotics (15%), Filing-to-Market Idea Fidelity (15%), Vault Authority (10%), Zero False Optical Tells (10%), 1-Bit Monochrome Proof (10%), Saudi Kufic Resonance (8%), 4x4 Tileability (7%), App Icon Fit (5%), and Kinetic Motion (5%).</p>
+      <div class="panel" style="overflow-x:auto;margin-top:18px">
+        <table class="bench-table" id="benchmark-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Mark Name</th>
+              <th>Family</th>
+              <th>16px</th>
+              <th>Up/Down</th>
+              <th>Idea Fit</th>
+              <th>Vault</th>
+              <th>Zero Tells</th>
+              <th>1-Bit</th>
+              <th>Kufic</th>
+              <th>4x4 Tile</th>
+              <th>Weighted Total</th>
+            </tr>
+          </thead>
+          <tbody id="benchmark-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 4: COLOR LAB -->
+    <section class="tab-pane" id="tab-colors">
+      <div class="eyebrow">PILLAR 04 · SOVEREIGN COLOR SYSTEM &amp; WCAG 2.2 CONTRAST FLOOR</div>
+      <h1>Six Institutional Palettes + Semantic Signal Separation.</h1>
+      <p class="sub">Per <code>DESIGN.md</code>, structural chrome remains monochrome or deep slate while semantic color (`--good` `#10B981`, `--warn` `#D97706`, `--bad` `#F43F5E`) is reserved strictly for financial directionality and `DISAGREES` audit flags. Click any swatch to copy its hex code.</p>
+      <div class="swatch-grid" id="color-swatches-grid" style="margin-top:20px"></div>
+    </section>
+
+    <!-- TAB 5: TYPOGRAPHY LAB -->
+    <section class="tab-pane" id="tab-typography">
+      <div class="eyebrow">PILLAR 05 · BILINGUAL TYPOGRAPHIC ENGINE &amp; NAJDI SCRIPT LAWS</div>
+      <h1>Tabular Numerals, Zero Arabic Letter-Spacing, Single-Language Lines.</h1>
+      <div class="card-grid-2" style="margin-top:20px">
+        <div class="panel">
+          <div class="eyebrow">LATIN UI &amp; QUANT STACK</div>
+          <h2>IBM Plex Sans + IBM Plex Mono + Fraunces</h2>
+          <p class="sub">All financial tables, bridge waterfalls, and ticker ribbons enforce <code>font-variant-numeric: tabular-nums</code> so decimals, bps deltas, and negative parentheses align vertically to the pixel.</p>
+          <pre class="code-pre">2223.SR  LUBEREF   SAR 116.50   +2.45%   ROIC 21.99%   DISAGREES (+1,109.2 bps)
+2222.SR  ARAMCO    SAR  27.85   +0.72%   ROIC 19.34%   RECONCILED (0.0 bps)
+1120.SR  AL RAJHI  SAR  88.40   -0.45%   ROE  21.40%   RECONCILED (0.0 bps)</pre>
+        </div>
+        <div class="panel ar-sample">
+          <div class="eyebrow" style="direction:ltr;text-align:right">ARABIC INSTITUTIONAL TYPOGRAPHY (IBM PLEX SANS ARABIC)</div>
+          <h2>رواصد — المرصد المالي السيادي للأسواق السعودية والأمريكية</h2>
+          <p style="color:var(--muted);font-size:14.5px">
+            تلتزم منصة رواصد بقواعد الخط العربي المؤسسي: يمنع تماماً استخدام تباعد الحروف اللاتيني (<code>letter-spacing: normal</code>) في النصوص العربية لضمان اتصال الحروف وسلامة القراءة في تقارير لجان الاستثمار وإفصاحات تداول وهيئة السوق المالية.
+          </p>
+          <div class="code-pre" style="direction:ltr;text-align:left">/* Mandatory Arabic CSS Law (DESIGN.md) */
+:lang(ar), [dir="rtl"] {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  letter-spacing: normal !important;
+  line-height: 1.72;
+}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: COPY & PR LAB -->
+    <section class="tab-pane" id="tab-copylab">
+      <div class="eyebrow">PILLAR 06 · BURSTINESS ENGINE, 20 RED FLAGS &amp; SAUDI FINANCIAL LEXICON</div>
+      <h1>Institutional Authority Without AI Slop or Advisory Hype.</h1>
+      <div class="card-grid-3" style="margin-top:20px">
+        <div class="panel">
+          <span class="tell-good">THE BURSTINESS TRIAD</span>
+          <h3>1. The Cut · 2. The Stretch · 3. The Drop</h3>
+          <p style="font-size:13px;color:var(--muted)">
+            <b>The Cut (≤ 6 words):</b> <i>"Primary filings win."</i><br/><br/>
+            <b>The Stretch (22-32 words):</b> <i>"When a third-party quote feed reports SAR 212.00M for Luberef Q3 Net Income while Note 14 of the audited Tadawul filing proves SAR 238.45M, Rawased flags the 1,109.2 bps gap."</i><br/><br/>
+            <b>The Drop:</b> <i>"Every single quarter."</i>
+          </p>
+        </div>
+        <div class="panel">
+          <span class="tell-bad">20 BANNED RED FLAGS (NO LIST)</span>
+          <h3>Zero Em-Dashes. Zero Filler.</h3>
+          <p style="font-size:13px;color:var(--muted)">
+            1. Never use em-dashes or en-dashes.<br/>
+            2. Never write "delve", "tapestry", "unlock", "elevate", "seamless", "game-changer", or "testament".<br/>
+            3. Never write "It's not just X, it's Y."<br/>
+            4. Never issue retail buy/sell tips ("Strong Buy", "Moon").<br/>
+            5. Never mix Arabic and English words on the same visual line.
+          </p>
+        </div>
+        <div class="panel">
+          <span class="tell-good">OFFICIAL @RAWASED.COM DESKS</span>
+          <h3>Direct Executive Routing</h3>
+          <p style="font-size:13px;color:var(--muted);font-family:var(--font-mono)">
+            • hi@rawased.com (Founder &amp; Strategy)<br/>
+            • help@rawased.com (Analyst Support)<br/>
+            • legal@rawased.com (CMA/PDPL Compliance)<br/>
+            • api@rawased.com (SDK &amp; 18-Tool MCP)<br/>
+            • enterprise@rawased.com (IC &amp; Family Offices)<br/>
+            • press@rawased.com (Media &amp; Research)<br/>
+            • security@rawased.com (Disclosures)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 7: DECKS & 3-TIER ZOOM -->
+    <section class="tab-pane" id="tab-decks">
+      <div class="eyebrow">PILLAR 07 · INVESTMENT COMMITTEE DECK ARCHITECTURE (DECKS.MD)</div>
+      <h1>Action Titles, 3-Tier Layered Zoom &amp; Light-First / Dark-Derived Proof.</h1>
+      <div class="panel" style="margin-top:20px">
+        <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border);padding-bottom:14px;margin-bottom:18px;flex-wrap:wrap;gap:12px">
+          <div>
+            <div style="font-family:var(--font-mono);font-size:11px;color:var(--up-tick)">IC SLIDE SPECIMEN · ACTION TITLE LAW (COMPLETE SENTENCE WITH NUMBER)</div>
+            <h2 style="margin:4px 0 0">Luberef (2223.SR) generates a 21.99% Zakat-adjusted ROIC (+1,309 bps above WACC) after Note 14 reconciliation.</h2>
+          </div>
+          <span class="brand-badge">PROVENANCE: AUDITED Q3 2025 PDF</span>
+        </div>
+        <div class="card-grid-3">
+          <div class="stat-box">
+            <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--up-tick)">TIER 1 · HEADLINE METRIC (2-SECOND SCAN)</div>
+            <div class="stat-num" style="font-size:32px;margin:6px 0">21.99%</div>
+            <div class="stat-lbl">Zakat-Adjusted ROIC vs. 8.90% WACC (+13.09% EVA Spread)</div>
+          </div>
+          <div class="stat-box">
+            <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--warn)">TIER 2 · BRIDGE PROOF (15-SECOND SCAN)</div>
+            <div class="stat-num" style="font-size:32px;margin:6px 0">SAR 238.45M</div>
+            <div class="stat-lbl">Audited PDF Net Income vs. SAR 212.00M Feed (`DISAGREES` +1,109 bps)</div>
+          </div>
+          <div class="stat-box">
+            <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--muted)">TIER 3 · FOOTNOTE ANCHOR (IC DEEP DIVE)</div>
+            <div class="stat-num" style="font-size:32px;margin:6px 0">SAR 804.0M</div>
+            <div class="stat-lbl">Net Debt incl. SAR 1,720M Murabaha, SAR 222M Leases &amp; SAR 172M EOSB</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 8: LIVE SHOWCASE -->
+    <section class="tab-pane" id="tab-showcase">
+      <div class="eyebrow">PILLAR 08 · LIVE CROSS-PILLAR BRAND PREVIEW ENGINE</div>
+      <h1>Inspect Active Logo &amp; Palette Across Every Production Surface.</h1>
+      <div class="card-grid-2" style="margin-top:20px">
+        <div class="panel">
+          <div class="eyebrow">SURFACE 01 · 4X4 ROTATIONAL MATRIX BOARD (0° · 90° · 180° · 270°)</div>
+          <div id="showcase-4x4-grid" style="display:flex;justify-content:center;padding:16px"></div>
+        </div>
+        <div class="panel">
+          <div class="eyebrow">SURFACE 02 · LIVE TERMINAL HEADER &amp; IOS DOCK ICONS</div>
+          <div style="background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between">
+            <div style="display:flex;align-items:center;gap:10px">
+              <span id="showcase-term-icon" style="width:32px;height:32px;display:inline-block"></span>
+              <div>
+                <div style="font-weight:700;font-size:14px">RAWASED TERMINAL <span style="color:var(--up-tick);font-family:var(--font-mono);font-size:11px">● TASI &amp; US LIVE</span></div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:var(--muted)">2223.SR · 2222.SR · 1120.SR · NVDA · MSFT</div>
+              </div>
+            </div>
+            <span class="brand-badge">app.rawased.com</span>
+          </div>
+          <div class="eyebrow">OPTICAL SCALE PROOF (128PX → 64PX → 32PX → 16PX FAVICON)</div>
+          <div id="showcase-dock-strip" style="display:flex;align-items:flex-end;gap:18px;padding:18px;background:var(--bg);border:1px solid var(--border);border-radius:12px"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const PALETTES = {
+      "bw-dark": { name: "B&W Dark", bg: "#09090B", surface: "#121215", surface2: "#18181C", border: "#27272A", fg: "#FAFAFA", muted: "#A1A1AA", up: "#FAFAFA", down: "#FAFAFA", contrast: "19.4:1 AAA" },
+      "sovereign-slate": { name: "Slate & Emerald", bg: "#0B0F17", surface: "#111827", surface2: "#1E293B", border: "#1F2937", fg: "#F8FAFC", muted: "#94A3B8", up: "#10B981", down: "#F43F5E", contrast: "17.8:1 AAA" },
+      "midnight-indigo": { name: "Midnight Indigo", bg: "#0D0B26", surface: "#151238", surface2: "#1E1B4B", border: "#29245C", fg: "#FFFFFF", muted: "#A5B4FC", up: "#34D399", down: "#818CF8", contrast: "18.1:1 AAA" },
+      "obsidian-emerald": { name: "Tadawul Obsidian", bg: "#06100C", surface: "#0B1D16", surface2: "#112A20", border: "#16382B", fg: "#ECFDF5", muted: "#6EE7B7", up: "#10B981", down: "#34D399", contrast: "17.2:1 AAA" },
+      "bw-light": { name: "Paper B&W Light", bg: "#FAFAFA", surface: "#F4F4F5", surface2: "#E4E4E7", border: "#D4D4D8", fg: "#09090B", muted: "#52525B", up: "#09090B", down: "#09090B", contrast: "19.4:1 AAA" },
+      "warm-limestone": { name: "Diriyah Limestone", bg: "#F5F2EB", surface: "#EBE6DC", surface2: "#E0D9CC", border: "#D6CFC2", fg: "#1C1917", muted: "#57534E", up: "#059669", down: "#B45309", contrast: "15.6:1 AAA" }
+    };
+
+    const LOGOS = [
+      // Family A: Interlocking Up/Down Kinetic Vault (Flagship)
+      {
+        id: "A1", fam: "A", name: "K2 Flagship · 180° Up/Down Kinetic Vault", score: 9.8,
+        scores: [10, 10, 10, 10, 10, 9.8, 9.5, 9.8, 10, 9.6],
+        desc: "Left Vault Arm plunges DOWN from the ceiling (Filing Audit to the Floor / Bear); Right Vault Arm surges UP from the floor (Intrinsic Valuation / Bull) with 45° kinetic impulse facets.",
+        svg: (fg, up, down) => `
+          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+          <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
+          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+          <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>`
+      },
+      {
+        id: "A2", fam: "A", name: "K2B · Extended-Channel 180° Up/Down Kinetic Vault", score: 9.7,
+        scores: [9.8, 10, 10, 10, 10, 9.7, 9.5, 9.8, 9.8, 9.6],
+        desc: "Deeper vertical stroke travel (y=11..60 and y=89..40) with 45° kinetic impulse facets and zero outer corner clutter.",
+        svg: (fg, up, down) => `
+          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 58 L 37.5 50 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+          <polygon points="37.5,55 45.5,63 45.5,73 37.5,65" fill="${down}"/>
+          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 42 L 62.5 50 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+          <polygon points="54.5,27 62.5,35 62.5,45 54.5,37" fill="${up}"/>`
+      },
+      {
+        id: "A3", fam: "A", name: "K1 · Pure Monolithic 180° Up/Down Kinetic Vault", score: 9.6,
+        scores: [10, 9.6, 9.6, 10, 10, 10, 9.4, 9.8, 10, 9.4],
+        desc: "Two single-piece cast-metal vault arms with 45° opposing kinetic points and zero secondary facets for ultra-small 16px engraving.",
+        svg: (fg) => `
+          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 68 L 37.5 60 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 32 L 62.5 40 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>`
+      },
+      {
+        id: "A4", fam: "A", name: "K3 · Continuous Unbroken Ribbon + 45° Breakout Facet", score: 9.5,
+        scores: [9.8, 9.4, 9.4, 10, 9.8, 9.6, 9.5, 9.6, 9.6, 9.4],
+        desc: "Preserves the exact unbroken outer loop of the original emblem while adding 45° kinetic shear and a rising 45° breakout facet.",
+        svg: (fg, up) => `
+          <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 38 L 62.5 46 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+          <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>`
+      },
+      {
+        id: "A5", fam: "A", name: "K6 · Interlocking Up/Down Half-Arrow Ticker Vault", score: 9.4,
+        scores: [9.4, 9.8, 9.5, 9.4, 9.6, 9.6, 9.0, 9.4, 9.4, 9.5],
+        desc: "Left descending column forms a literal architectural Down-Arrow (↓); Right ascending column forms an architectural Up-Arrow (↑).",
+        svg: (fg, up) => `
+          <path d="M 45.5 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 41.5 V 64 L 31 53.5" stroke="${fg}" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+          <path d="M 54.5 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 58.5 V 36 L 69 46.5" stroke="${up}" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>`
+      },
+      {
+        id: "A6", fam: "A", name: "U1 · Flush 180° Interlocking Up/Down Vault (Flat Terminal)", score: 9.3,
+        scores: [9.8, 9.0, 9.2, 9.8, 9.8, 9.8, 9.2, 9.6, 9.4, 9.0],
+        desc: "Minimalist Bauhaus 8px interlocking G-hooks with flat horizontal terminals and a 9px central observatory corridor.",
+        svg: (fg) => `
+          <path d="M 45.5 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 41.5 V 66" stroke="${fg}" stroke-width="8" stroke-linecap="butt" fill="none"/>
+          <path d="M 54.5 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 58.5 V 34" stroke="${fg}" stroke-width="8" stroke-linecap="butt" fill="none"/>`
+      },
+
+      // Family B: OHLC Candlestick & Order Book
+      {
+        id: "B1", fam: "B", name: "K4 · Open-Bottom Vault + Symmetric Floating OHLC Candlesticks", score: 9.5,
+        scores: [9.2, 10, 9.6, 9.4, 9.6, 9.4, 9.0, 9.2, 9.5, 9.6],
+        desc: "Unbroken 3-sided rounded-square vault housing two symmetric floating OHLC candlesticks (Left Bearish pullback, Right Bullish breakout).",
+        svg: (fg, up, down) => `
+          <path d="M 36 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 64" stroke="${fg}" stroke-width="8" fill="none"/>
+          <line x1="41" y1="28" x2="41" y2="78" stroke="${down}" stroke-width="3.2"/>
+          <rect x="36.5" y="42" width="9" height="24" rx="1.5" fill="${fg}"/>
+          <line x1="59" y1="20" x2="59" y2="72" stroke="${up}" stroke-width="3.2"/>
+          <rect x="54.5" y="30" width="9" height="26" rx="1.5" fill="${up}"/>`
+      },
+      {
+        id: "B2", fam: "B", name: "Full-Span Meridian Wicks + Offset Candlestick Bodies", score: 9.2,
+        scores: [9.0, 9.8, 9.4, 9.2, 9.4, 9.2, 8.8, 9.0, 9.2, 9.4],
+        desc: "Continuous meridian wick axes anchored to the vault ceiling and floor with offset Bear and Bull candle bodies.",
+        svg: (fg, up) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <line x1="41" y1="14" x2="41" y2="86" stroke="${fg}" stroke-width="2.8"/>
+          <line x1="59" y1="14" x2="59" y2="86" stroke="${up}" stroke-width="2.8"/>
+          <rect x="36" y="44" width="10" height="24" rx="1.5" fill="${fg}"/>
+          <rect x="54" y="28" width="10" height="26" rx="1.5" fill="${up}"/>`
+      },
+      {
+        id: "B3", fam: "B", name: "Hollow Bear vs. Solid Bull Charting Vault", score: 9.1,
+        scores: [8.8, 9.8, 9.2, 9.2, 9.2, 9.0, 8.8, 9.0, 9.0, 9.2],
+        desc: "Classic Japanese candlestick convention: hollow Bearish candle on the left vs. solid Bullish candle on the right.",
+        svg: (fg, up) => `
+          <path d="M 35 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 65" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <line x1="41" y1="26" x2="41" y2="76" stroke="${fg}" stroke-width="2.8"/>
+          <rect x="36" y="40" width="10" height="24" rx="1.5" fill="var(--bg)" stroke="${fg}" stroke-width="3"/>
+          <line x1="59" y1="20" x2="59" y2="70" stroke="${up}" stroke-width="2.8"/>
+          <rect x="54" y="28" width="10" height="26" rx="1.5" fill="${up}"/>`
+      },
+      {
+        id: "B4", fam: "B", name: "Bid-Ask Order Book Depth Ladder Vault", score: 9.0,
+        scores: [8.8, 9.4, 9.4, 9.0, 9.0, 9.0, 8.6, 8.8, 9.0, 9.2],
+        desc: "Left descending Bid depth steps vs. Right ascending Ask depth steps inside the institutional vault frame.",
+        svg: (fg, up, down) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <rect x="26" y="30" width="18" height="6" fill="${down}"/>
+          <rect x="26" y="42" width="14" height="6" fill="${fg}"/>
+          <rect x="26" y="54" width="20" height="6" fill="${fg}"/>
+          <rect x="56" y="38" width="18" height="6" fill="${up}"/>
+          <rect x="60" y="50" width="14" height="6" fill="${up}"/>
+          <rect x="54" y="62" width="20" height="6" fill="${fg}"/>`
+      },
+      {
+        id: "B5", fam: "B", name: "Three-Bar Morning Star Reversal Vault", score: 8.9,
+        scores: [8.6, 9.5, 9.0, 9.0, 9.0, 8.8, 8.5, 8.8, 8.8, 9.0],
+        desc: "Three candlestick regime transition: Bearish drop, Doji star at the floor, and Bullish institutional reversal.",
+        svg: (fg, up, down) => `
+          <rect x="13" y="13" width="74" height="74" rx="14" stroke="${fg}" stroke-width="7" fill="none"/>
+          <rect x="28" y="30" width="8" height="26" fill="${down}"/>
+          <line x1="50" y1="54" x2="50" y2="74" stroke="${fg}" stroke-width="3"/>
+          <rect x="45" y="61" width="10" height="5" fill="${fg}"/>
+          <rect x="64" y="26" width="8" height="32" fill="${up}"/>`
+      },
+      {
+        id: "B6", fam: "B", name: "Kinetic N-Wave Breakout Vault", score: 8.8,
+        scores: [9.0, 9.2, 8.8, 9.0, 8.8, 8.8, 8.5, 8.6, 8.8, 9.0],
+        desc: "Continuous rounded-square vault whose two interior pillars are bridged by an ascending diagonal market wave.",
+        svg: (fg, up) => `
+          <path d="M 41.5 42 V 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 58.5 V 28" stroke="${fg}" stroke-width="8" fill="none"/>
+          <path d="M 41.5 44 L 58.5 58" stroke="${up}" stroke-width="7.2"/>`
+      },
+
+      // Family C: The 5 Bridges & DISAGREES Reconciliation
+      {
+        id: "C1", fam: "C", name: "Top-Down Filing vs. Bottom-Up Market Parity Bridge", score: 9.3,
+        scores: [9.4, 9.4, 9.8, 9.4, 9.2, 9.2, 9.0, 9.0, 9.2, 9.2],
+        desc: "Unbroken roof vault where Left column hangs down from the primary filing ceiling and Right column rises up from market price.",
+        svg: (fg, up) => `
+          <path d="M 45.5 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 58.5 V 32" stroke="${fg}" stroke-width="8" fill="none"/>
+          <path d="M 41.5 15 V 66" stroke="${up}" stroke-width="8"/>`
+      },
+      {
+        id: "C2", fam: "C", name: "The DISAGREES Delta Horizon Vault (50 bps Split)", score: 9.2,
+        scores: [9.2, 9.2, 9.8, 9.2, 9.2, 9.0, 8.8, 9.0, 9.0, 9.2],
+        desc: "Visualizes Bridge 01 (DISAGREES): the horizontal parity gap between raw vendor feeds and audited Tadawul PDF footnotes.",
+        svg: (fg, up, down) => `
+          <path d="M 45.5 85 H 22 Q 14 85 14 77 V 23 Q 14 15 22 15 H 41.5 V 54" stroke="${fg}" stroke-width="7.8" fill="none"/>
+          <path d="M 54.5 15 H 78 Q 86 15 86 23 V 77 Q 86 85 78 85 H 58.5 V 46" stroke="${fg}" stroke-width="7.8" fill="none"/>
+          <line x1="28" y1="50" x2="72" y2="50" stroke="${down}" stroke-width="3.2" stroke-dasharray="4 3"/>`
+      },
+      {
+        id: "C3", fam: "C", name: "The 5-Bridge Waterfall Vault (Filing · Zakat · EOSB · FCF · AI)", score: 9.0,
+        scores: [8.6, 9.0, 9.8, 9.0, 9.0, 8.8, 8.8, 8.8, 8.8, 9.0],
+        desc: "Five stepped architectural bridge columns spanning from Enterprise Value to Zakat-adjusted intrinsic equity.",
+        svg: (fg, up) => `
+          <rect x="13" y="13" width="74" height="74" rx="14" stroke="${fg}" stroke-width="6.8" fill="none"/>
+          <rect x="25" y="54" width="6" height="20" fill="${fg}"/>
+          <rect x="36" y="46" width="6" height="20" fill="${fg}"/>
+          <rect x="47" y="38" width="6" height="20" fill="${up}"/>
+          <rect x="58" y="30" width="6" height="20" fill="${fg}"/>
+          <rect x="69" y="24" width="6" height="50" fill="${up}"/>`
+      },
+      {
+        id: "C4", fam: "C", name: "CAST + DDIS Capital Stack Interlock", score: 8.9,
+        scores: [8.8, 8.8, 9.4, 9.2, 9.0, 8.8, 8.6, 8.8, 8.8, 8.8],
+        desc: "Interlocking Murabaha, Sukuk, IFRS 16 Leases, and Saudi IAS 19 EOSB capital structure tiers.",
+        svg: (fg, up) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 28 32 H 72 M 28 46 H 60 M 28 60 H 50" stroke="${fg}" stroke-width="7" stroke-linecap="butt"/>
+          <path d="M 56 60 H 72 M 66 46 H 72" stroke="${up}" stroke-width="7" stroke-linecap="butt"/>`
+      },
+      {
+        id: "C5", fam: "C", name: "Dual-Exchange Meridian Bridge (TASI ↔ NYSE)", score: 9.1,
+        scores: [9.2, 9.0, 9.5, 9.2, 9.2, 9.0, 9.0, 9.0, 9.0, 9.0],
+        desc: "Two sovereign exchange chambers (Saudi Tadawul & US SEC) linked across a central valuation bridge.",
+        svg: (fg, up) => `
+          <path d="M 44 26 H 22 Q 14 26 14 34 V 76 Q 14 84 22 84 H 44 V 26 Z" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 56 16 H 78 Q 86 16 86 24 V 66 Q 86 74 78 74 H 56 V 16 Z" stroke="${up}" stroke-width="7.2" fill="none"/>`
+      },
+      {
+        id: "C6", fam: "C", name: "Reverse DCF Equilibrium Fulcrum", score: 8.8,
+        scores: [8.8, 8.8, 9.4, 8.8, 8.8, 8.8, 8.4, 8.6, 8.8, 8.8],
+        desc: "Balances market-implied FCF growth against Zakat-adjusted WACC inside the Rawased vault.",
+        svg: (fg, up) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 28 56 L 72 36" stroke="${up}" stroke-width="7" stroke-linecap="butt"/>
+          <polygon points="50,52 40,72 60,72" fill="${fg}"/>`
+      },
+
+      // Family D: Arabic Kufic Monograms (رواصد / ر + ص)
+      {
+        id: "D1", fam: "D", name: "Square Kufic Ra-Sad (ر + ص) Up/Down Vault", score: 9.4,
+        scores: [9.4, 9.2, 9.5, 9.6, 9.6, 9.4, 10, 9.4, 9.4, 9.0],
+        desc: "Fuses the Kufic loop of Sad (ص) on the right with the descending stroke of Ra (ر) on the left in 8px geometric parity.",
+        svg: (fg, up) => `
+          <path d="M 44 84 H 22 Q 14 84 14 76 V 48 M 14 28 V 22 Q 14 14 22 14 H 42 V 66" stroke="${fg}" stroke-width="7.8" fill="none"/>
+          <path d="M 56 84 V 22 Q 56 14 64 14 H 78 Q 86 14 86 22 V 48 Q 86 56 78 56 H 56" stroke="${up}" stroke-width="7.8" fill="none"/>`
+      },
+      {
+        id: "D2", fam: "D", name: "Continuous Maqili Sad (ص) Observatory Loop", score: 9.2,
+        scores: [9.2, 9.0, 9.2, 9.4, 9.4, 9.4, 10, 9.2, 9.2, 8.8],
+        desc: "Classical Saudi Maqili Kufic construction of ص (Sad for مرصد / رواصد) with twin interior valuation pillars.",
+        svg: (fg, up) => `
+          <path d="M 28 84 V 64 H 14 V 22 Q 14 14 22 14 H 78 Q 86 14 86 22 V 76 Q 86 84 78 84 H 44 V 34" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <path d="M 60 84 V 28" stroke="${up}" stroke-width="7.5"/>`
+      },
+      {
+        id: "D3", fam: "D", name: "Diriyah Najdi Furjat Triangle + Twin Impulse Vault", score: 9.1,
+        scores: [9.0, 9.2, 9.2, 9.4, 9.2, 9.0, 9.8, 9.0, 9.0, 8.8],
+        desc: "Integrates the traditional Najdi architectural triangular aperture (فرجات) into the Up/Down kinetic beams.",
+        svg: (fg, up, down) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <path d="M 41 14 V 54 M 59 86 V 46" stroke="${fg}" stroke-width="7.8"/>
+          <polygon points="35,60 47,60 41,70" fill="${down}"/>
+          <polygon points="53,40 65,40 59,30" fill="${up}"/>`
+      },
+      {
+        id: "D4", fam: "D", name: "Bilingual R + ر Sovereign Mirror Monogram", score: 9.0,
+        scores: [9.0, 8.8, 9.0, 9.2, 9.2, 9.2, 9.6, 8.8, 9.0, 8.8],
+        desc: "Left stem forms Latin R while the right curved stem forms Arabic ر (Ra) inside the unified rounded square.",
+        svg: (fg, up) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 32 70 V 30 H 46 Q 54 30 54 39 Q 54 48 46 48 H 32 M 44 48 L 54 70" stroke="${fg}" stroke-width="6.8" fill="none"/>
+          <path d="M 68 30 V 54 Q 68 68 56 72" stroke="${up}" stroke-width="6.8" fill="none"/>`
+      },
+      {
+        id: "D5", fam: "D", name: "Kufic Quad-Chamber Rawased Seal", score: 8.9,
+        scores: [8.8, 8.6, 8.8, 9.4, 9.0, 9.0, 9.8, 9.4, 8.8, 8.6],
+        desc: "Four-chamber rotational Kufic seal spelling ر و ص د around the central observatory core.",
+        svg: (fg, up) => `
+          <rect x="14" y="14" width="72" height="72" rx="14" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 50 14 V 86 M 14 50 H 86" stroke="${fg}" stroke-width="6.5"/>
+          <rect x="39" y="39" width="22" height="22" rx="4" fill="var(--bg)" stroke="${up}" stroke-width="6"/>`
+      },
+      {
+        id: "D6", fam: "D", name: "Geometric Rasid (راصد) Watchtower Crest", score: 9.1,
+        scores: [9.2, 9.0, 9.2, 9.4, 9.2, 9.2, 9.5, 9.0, 9.0, 8.8],
+        desc: "Stepped Arabian watchtower (مرقب / راصد) silhouette formed by the ascending and descending vault beams.",
+        svg: (fg, up) => `
+          <path d="M 22 84 H 78 L 70 22 H 30 Z" stroke="${fg}" stroke-width="7.2" stroke-linejoin="round" fill="none"/>
+          <path d="M 43 84 V 46 M 57 84 V 32" stroke="${up}" stroke-width="7"/>`
+      },
+
+      // Family E: Observatory Reticle & Precision Apertures (المرصد)
+      {
+        id: "E1", fam: "E", name: "Meridian Slit Observatory Dome & Vault", score: 9.2,
+        scores: [9.2, 9.0, 9.4, 9.4, 9.4, 9.2, 9.0, 9.0, 9.2, 9.2],
+        desc: "Combines the rounded-square vault floor with an astronomical observatory dome slit and twin market beams.",
+        svg: (fg, up) => `
+          <path d="M 42 84 H 20 V 46 Q 20 16 50 16 Q 80 16 80 46 V 84 H 58" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <path d="M 42 84 V 44 M 58 84 V 28" stroke="${up}" stroke-width="7.5"/>`
+      },
+      {
+        id: "E2", fam: "E", name: "Precision Crosshair + Up/Down Impulse Lock", score: 9.0,
+        scores: [8.8, 9.2, 9.2, 9.0, 9.0, 9.0, 8.8, 9.0, 9.0, 9.2],
+        desc: "Optical reticle locks onto the exact divergence point between the descending filing bar and ascending price bar.",
+        svg: (fg, up, down) => `
+          <path d="M 14 34 V 14 H 34 M 66 14 H 86 V 34 M 86 66 V 86 H 66 M 34 86 H 14 V 66" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 41 22 V 64" stroke="${down}" stroke-width="7.8"/>
+          <path d="M 59 78 V 36" stroke="${up}" stroke-width="7.8"/>`
+      },
+      {
+        id: "E3", fam: "E", name: "Astrolabe Horizon Parity Gauge", score: 8.9,
+        scores: [8.6, 8.8, 9.2, 9.0, 9.0, 8.8, 9.4, 8.8, 8.8, 8.8],
+        desc: "Inspired by classical Islamic astrolabes (الأسطرلاب) used to sight meridian altitude with zero error.",
+        svg: (fg, up) => `
+          <circle cx="50" cy="50" r="36" stroke="${fg}" stroke-width="7.2" fill="none"/>
+          <path d="M 41 16 V 64 M 59 84 V 36" stroke="${up}" stroke-width="7.5"/>`
+      },
+      {
+        id: "E4", fam: "E", name: "Isometric Sovereign Vault Cube + Twin Channels", score: 9.1,
+        scores: [9.0, 9.0, 9.2, 9.4, 9.2, 9.0, 8.8, 9.2, 9.2, 9.0],
+        desc: "Hexagonal isometric vault block carved by two opposing vertical stock impulse channels.",
+        svg: (fg, up) => `
+          <polygon points="50,12 84,31 84,69 50,88 16,69 16,31" stroke="${fg}" stroke-width="7" fill="none" stroke-linejoin="round"/>
+          <path d="M 41 24 V 66 M 59 76 V 34" stroke="${up}" stroke-width="7.5"/>`
+      },
+      {
+        id: "E5", fam: "E", name: "Nested Concentric Vault Aperture", score: 8.9,
+        scores: [8.8, 8.8, 9.0, 9.4, 9.0, 9.0, 8.8, 9.0, 8.8, 8.8],
+        desc: "Double-walled sovereign vault perimeter protecting the central Up/Down parity core.",
+        svg: (fg, up) => `
+          <rect x="12" y="12" width="76" height="76" rx="16" stroke="${fg}" stroke-width="5.5" fill="none"/>
+          <path d="M 42 74 H 28 Q 24 74 24 70 V 30 Q 24 26 28 26 H 42 V 60" stroke="${fg}" stroke-width="6.5" fill="none"/>
+          <path d="M 58 26 H 72 Q 76 26 76 30 V 70 Q 76 74 72 74 H 58 V 40" stroke="${up}" stroke-width="6.5" fill="none"/>`
+      },
+      {
+        id: "E6", fam: "E", name: "Sovereign Seal + Corner Reticle Lockup (Original Heritage)", score: 9.3,
+        scores: [9.4, 8.8, 9.2, 9.8, 9.6, 9.6, 9.4, 9.6, 9.4, 9.0],
+        desc: "The original Byan/Rawased Strategic Report seal with 4 corner brackets and bottom-entry twin columns.",
+        svg: (fg, up) => `
+          <path d="M 6 22 V 9 Q 6 6 9 6 H 22 M 78 6 H 91 Q 94 6 94 9 V 22 M 94 78 V 91 Q 94 94 91 94 H 78 M 22 94 H 9 Q 6 94 6 91 V 78" stroke="${fg}" stroke-opacity="0.4" stroke-width="2.2" fill="none"/>
+          <path d="M 42 46 V 83 H 23 Q 16 83 16 76 V 24 Q 16 17 23 17 H 77 Q 84 17 84 24 V 76 Q 84 83 77 83 H 58 V 30" stroke="${fg}" stroke-width="7.4" fill="none"/>`
+      },
+
+      // Family F: 4x4 Rotational Matrix & Tessellations
+      {
+        id: "F1", fam: "F", name: "2x2 Rotational Kinetic Vault Matrix (0° · 90° · 270° · 180°)", score: 9.6,
+        scores: [9.2, 9.6, 9.6, 9.8, 9.8, 9.6, 9.6, 10, 9.4, 9.8],
+        desc: "Four-quadrant rotational lockup demonstrating how K2 tiles seamlessly across 90° and 180° rotations.",
+        svg: (fg, up, down) => {
+          const cell = (tx, ty, deg) => `<g transform="translate(${tx},${ty})"><svg width="42" height="42" viewBox="0 0 100 100"><g transform="rotate(${deg} 50 50)">
+            <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+            <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
+            <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+            <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+          </g></svg></g>`;
+          return cell(6,6,0) + cell(52,6,90) + cell(6,52,270) + cell(52,52,180);
+        }
+      },
+      {
+        id: "F2", fam: "F", name: "90° Horizontal Bid-Ask Kinetic Vault", score: 9.4,
+        scores: [9.6, 9.4, 9.4, 9.6, 9.6, 9.6, 9.2, 9.8, 9.4, 9.4],
+        desc: "90° rotation of the Flagship K2 mark: Left-to-Right Bid/Ask horizontal liquidity flow.",
+        svg: (fg, up, down) => `<g transform="rotate(90 50 50)">
+          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+          <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
+          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+          <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+        </g>`
+      },
+      {
+        id: "F3", fam: "F", name: "45° Diamond Sovereign Bourse Crest", score: 9.1,
+        scores: [9.0, 9.2, 9.0, 9.4, 9.2, 9.2, 9.2, 9.0, 9.0, 9.0],
+        desc: "Rotates the vault 45° into a classical diamond bourse emblem while keeping the interior Up/Down beams vertical.",
+        svg: (fg, up) => `
+          <rect x="22" y="22" width="56" height="56" rx="10" transform="rotate(45 50 50)" stroke="${fg}" stroke-width="7" fill="none"/>
+          <path d="M 42 26 V 64" stroke="${fg}" stroke-width="7.2"/>
+          <path d="M 58 74 V 36" stroke="${up}" stroke-width="7.2"/>`
+      },
+      {
+        id: "F4", fam: "F", name: "16px Micro-Optical Favicon Master (Thickened 10px Stroke)", score: 9.5,
+        scores: [10, 9.4, 9.4, 9.6, 9.8, 10, 9.0, 9.4, 10, 9.0],
+        desc: "Optically weighted 10px stroke master engineered specifically for 16x16px browser tabs and high-DPI status bars.",
+        svg: (fg, up) => `
+          <path d="M 45 90 H 22 Q 10 90 10 78 V 22 Q 10 10 22 10 H 45 V 68 L 35 58 V 20 H 22 Q 20 20 20 22 V 78 Q 20 80 22 80 H 45 Z" fill="${fg}"/>
+          <path d="M 55 10 H 78 Q 90 10 90 22 V 78 Q 90 90 78 90 H 55 V 32 L 65 42 V 80 H 78 Q 80 80 80 78 V 22 Q 80 20 78 20 H 55 Z" fill="${up}"/>`
+      },
+      {
+        id: "F5", fam: "F", name: "App Icon Squircle Master with Subtle Inner Bevel", score: 9.5,
+        scores: [9.8, 9.6, 9.6, 9.6, 9.8, 9.4, 9.2, 9.4, 10, 9.4],
+        desc: "iOS/macOS squircle container framing the K2 Interlocking Up/Down Kinetic Vault.",
+        svg: (fg, up, down) => `
+          <rect x="4" y="4" width="92" height="92" rx="22" fill="var(--surface)" stroke="var(--border)" stroke-width="2"/>
+          <g transform="translate(10,10) scale(0.8)">
+            <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+            <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
+            <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+            <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+          </g>`
+      },
+      {
+        id: "F6", fam: "F", name: "Dual-Pillar Meridian Pulse Lockup", score: 9.2,
+        scores: [9.4, 9.2, 9.2, 9.2, 9.4, 9.4, 9.0, 9.2, 9.2, 9.2],
+        desc: "Minimalist twin meridian pulses inside the rounded-square vault for watermark and print colophon use.",
+        svg: (fg, up, down) => `
+          <rect x="14" y="14" width="72" height="72" rx="15" stroke="${fg}" stroke-width="7.5" fill="none"/>
+          <polygon points="37,14 45,14 45,66 37,58" fill="${down}"/>
+          <polygon points="55,86 63,86 63,34 55,42" fill="${up}"/>`
+      }
+    ];
+
+    let activePalette = "bw-dark";
+    let activeLogoId = "A1";
+    let activeFamily = "ALL";
+
+    function wrapSvg(inner, size = 100) {
+      return `<svg viewBox="0 0 100 100" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg">${inner}</svg>`;
+    }
+
+    function applyPalette(slug) {
+      activePalette = slug;
+      const p = PALETTES[slug];
+      const root = document.documentElement;
+      root.style.setProperty("--bg", p.bg);
+      root.style.setProperty("--surface", p.surface);
+      root.style.setProperty("--surface-2", p.surface2);
+      root.style.setProperty("--border", p.border);
+      root.style.setProperty("--fg", p.fg);
+      root.style.setProperty("--muted", p.muted);
+      root.style.setProperty("--up-tick", p.up);
+      root.style.setProperty("--down-tick", p.down);
+      renderAll();
+    }
+
+    function renderPaletteButtons() {
+      const container = document.getElementById("palette-switcher");
+      container.innerHTML = Object.entries(PALETTES).map(([slug, p]) => `
+        <button class="pal-btn ${slug === activePalette ? 'active' : ''}" onclick="applyPalette('${slug}')">
+          <span class="pal-dot" style="background:${p.bg};box-shadow:inset 0 0 0 3px ${p.up}"></span>
+          ${p.name}
+        </button>
+      `).join("");
+    }
+
+    function renderLogoCards() {
+      const p = PALETTES[activePalette];
+      const filtered = activeFamily === "ALL" ? LOGOS : LOGOS.filter(l => l.fam === activeFamily);
+      const container = document.getElementById("logo-cards-container");
+      container.innerHTML = filtered.map(l => {
+        const inner = l.svg(p.fg, p.up, p.down);
+        return `
+          <div class="logo-card ${l.id === activeLogoId ? 'selected' : ''}" onclick="selectLogo('${l.id}')">
+            <div class="logo-card-top">
+              <span>${l.id} · FAMILY ${l.fam}</span>
+              <span class="score-pill">${l.score.toFixed(1)} / 10</span>
+            </div>
+            <h3>${l.name}</h3>
+            <div class="logo-stage">
+              <div class="logo-stage-main">${wrapSvg(inner, 116)}</div>
+              <div class="scale-col">
+                <div class="scale-item">${wrapSvg(inner, 44)} <span>44px</span></div>
+                <div class="scale-item">${wrapSvg(inner, 24)} <span>24px</span></div>
+                <div class="scale-item">${wrapSvg(inner, 16)} <span>16px</span></div>
+              </div>
+            </div>
+            <p class="logo-desc">${l.desc}</p>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderHeroAndShowcase() {
+      const p = PALETTES[activePalette];
+      const logo = LOGOS.find(l => l.id === activeLogoId) || LOGOS[0];
+      const inner = logo.svg(p.fg, p.up, p.down);
+
+      document.getElementById("header-live-logo").innerHTML = wrapSvg(inner, 34);
+      document.getElementById("active-logo-title").textContent = `ACTIVE MASTER: ${logo.id} · ${logo.name} (${logo.score.toFixed(1)}/10)`;
+      document.getElementById("hero-selected-svg").innerHTML = wrapSvg(inner, 190);
+      document.getElementById("hero-scale-strip").innerHTML = [64, 32, 24, 16].map(s => `
+        <div style="display:flex;flex-direction:column;align-items:center;gap:4px">
+          <div style="padding:6px;border-radius:8px;background:var(--surface);border:1px solid var(--border)">${wrapSvg(inner, s)}</div>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--muted)">${s}px</span>
+        </div>
+      `).join("");
+
+      // Showcase 4x4 grid
+      const degs = [[0,90,180,270],[180,270,0,90],[90,180,270,0],[270,0,90,180]];
+      let gridHtml = `<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;background:var(--bg);padding:16px;border-radius:16px;border:1px solid var(--border)">`;
+      for (let r = 0; r < 4; r++) {
+        for (let c = 0; c < 4; c++) {
+          const isHero = (r === 2 && c === 1);
+          gridHtml += `<div style="width:74px;height:74px;border-radius:12px;background:var(--surface);border:${isHero ? '2px solid var(--up-tick)' : '1px solid var(--border)'};display:flex;align-items:center;justify-content:center">
+            <svg viewBox="0 0 100 100" width="56" height="56"><g transform="rotate(${degs[r][c]} 50 50)">${inner}</g></svg>
+          </div>`;
+        }
+      }
+      gridHtml += `</div>`;
+      document.getElementById("showcase-4x4-grid").innerHTML = gridHtml;
+      document.getElementById("showcase-term-icon").innerHTML = wrapSvg(inner, 32);
+      document.getElementById("showcase-dock-strip").innerHTML = [128, 64, 48, 32, 16].map(s => `
+        <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div style="padding:${Math.max(3, Math.round(s*0.1))}px;border-radius:${Math.max(4, Math.round(s*0.22))}px;background:var(--surface);border:1px solid var(--border)">${wrapSvg(inner, s)}</div>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--muted)">${s}px</span>
+        </div>
+      `).join("");
+    }
+
+    function renderBenchmarkTable() {
+      const tbody = document.getElementById("benchmark-tbody");
+      const sorted = [...LOGOS].sort((a, b) => b.score - a.score);
+      tbody.innerHTML = sorted.map(l => `
+        <tr onclick="selectLogo('${l.id}')" style="cursor:pointer;${l.id === activeLogoId ? 'background:var(--surface-2)' : ''}">
+          <td style="font-family:var(--font-mono);font-weight:700;color:var(--up-tick)">${l.id}</td>
+          <td style="font-weight:600">${l.name}</td>
+          <td style="font-family:var(--font-mono)">Family ${l.fam}</td>
+          <td>${l.scores[0]}</td>
+          <td>${l.scores[1]}</td>
+          <td>${l.scores[2]}</td>
+          <td>${l.scores[3]}</td>
+          <td>${l.scores[4]}</td>
+          <td>${l.scores[5]}</td>
+          <td>${l.scores[6]}</td>
+          <td>${l.scores[7]}</td>
+          <td><span class="score-pill">${l.score.toFixed(1)} / 10</span></td>
+        </tr>
+      `).join("");
+    }
+
+    function renderColorSwatches() {
+      const grid = document.getElementById("color-swatches-grid");
+      grid.innerHTML = Object.entries(PALETTES).map(([slug, p]) => `
+        <div class="swatch-card" onclick="applyPalette('${slug}')">
+          <div class="swatch-color" style="background:${p.bg};color:${p.fg};border-bottom:4px solid ${p.up}">
+            <span>${p.bg}</span>
+            <span style="color:${p.up}">${p.contrast}</span>
+          </div>
+          <div class="swatch-meta">
+            <div style="font-weight:700;margin-bottom:4px">${p.name} (<code>${slug}</code>)</div>
+            <div style="font-family:var(--font-mono);font-size:11px;color:var(--muted)">
+              FG: ${p.fg} · Surface: ${p.surface}<br/>
+              Up: ${p.up} · Down: ${p.down}
+            </div>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function selectLogo(id) {
+      activeLogoId = id;
+      renderAll();
+    }
+
+    function renderAll() {
+      renderPaletteButtons();
+      renderLogoCards();
+      renderHeroAndShowcase();
+      renderBenchmarkTable();
+      renderColorSwatches();
+    }
+
+    // Tab switching
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+      });
+    });
+
+    // Family filter switching
+    document.querySelectorAll(".fam-pill").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".fam-pill").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        activeFamily = btn.dataset.fam;
+        renderLogoCards();
+      });
+    });
+
+    // Copy active SVG
+    document.getElementById("copy-active-svg-btn").addEventListener("click", () => {
+      const p = PALETTES[activePalette];
+      const logo = LOGOS.find(l => l.id === activeLogoId) || LOGOS[0];
+      const svgCode = wrapSvg(logo.svg(p.fg, p.up, p.down), 1024);
+      navigator.clipboard.writeText(svgCode);
+      const btn = document.getElementById("copy-active-svg-btn");
+      btn.textContent = "Copied SVG to Clipboard ✓";
+      setTimeout(() => { btn.textContent = "Copy Active SVG Code"; }, 1800);
+    });
+
+    renderAll();
+  </script>
+</body>
+</html>

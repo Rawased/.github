@@ -1,208 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="100%" height="100%">
-  <defs>
-    <clipPath id="text-col-clip">
-      <rect x="216" y="0" width="676" height="340"/>
-    </clipPath>
-  </defs>
-  <rect x="0" y="0" width="1280" height="340" rx="20" fill="#0B0F17" stroke="#1E293B" stroke-width="2"/>
-  <!-- Left: Primary 1x1 Candlestick Vault Mark -->
-  <g transform="translate(48, 102)">
-    <rect x="0" y="0" width="136" height="136" rx="22" fill="#111827" stroke="#1E293B" stroke-width="1.5"/>
-    <svg x="10" y="10" width="116" height="116" viewBox="0 0 100 100">
-      <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500">
+  <rect width="1600" height="500" rx="28" fill="#0B0F17"/>
+  <rect x="16" y="16" width="1568" height="468" rx="20" fill="none" stroke="#1F2937" stroke-width="2"/>
+  <line x1="420" y1="16" x2="420" y2="484" stroke="#1F2937" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="1275" y1="16" x2="1275" y2="484" stroke="#1F2937" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Left: Pure Master Mark (No Grey Corner Ticks) -->
+  <g transform="translate(75, 95)">
+    <rect width="300" height="300" rx="52" fill="#111827" stroke="#1F2937" stroke-width="3"/>
+    <svg x="26" y="26" width="248" height="248" viewBox="0 0 100 100">
+      <!-- Left Vault Arm: wraps Bottom-Left-Top and plunges DOWN (x=37.5..45.5) with 45-deg shear -->
+    <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="#F8FAFC"/>
+    <!-- Left Down-Impulse 45-deg Kinetic Facet -->
+    <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="#F43F5E"/>
+    <!-- Right Vault Arm: wraps Top-Right-Bottom and surges UP (x=54.5..62.5) with 45-deg shear -->
+    <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="#F8FAFC"/>
+    <!-- Right Up-Impulse 45-deg Kinetic Facet -->
+    <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="#10B981"/>
     </svg>
   </g>
-  <!-- Center: Brand Wordmark & Architecture Subtitle -->
-  <g clip-path="url(#text-col-clip)">
-    <text x="220" y="162" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">RAWASED</text>
-    <rect x="512" y="118" width="2.5" height="50" rx="1.25" fill="#10B981" opacity="0.5"/>
-    <g transform="translate(536, 160) scale(1.06)">
-      <path d="M21.00 -2.24 Q20.43 -2.06 18.49 -1.60 Q16.55 -1.15 14.62 -0.72 Q11.42 -0.00 8.84 -0.00 Q6.15 -0.07 4.72 -1.36 Q3.48 -2.10 3.53 -5.18 Q3.53 -5.56 3.55 -6.41 Q3.57 -7.26 3.89 -9.10 Q4.20 -10.94 4.43 -11.56 Q4.66 -12.18 4.91 -12.18 Q4.95 -12.18 5.00 -12.16 L5.15 -10.49 Q5.22 -8.07 6.40 -7.48 Q8.00 -6.80 9.61 -6.80 Q10.53 -6.80 11.62 -6.88 Q12.70 -6.96 14.44 -7.37 Q17.90 -8.07 17.90 -8.45 Q17.90 -9.58 16.37 -13.90 Q15.01 -17.13 13.34 -18.90 L16.43 -24.68 Q18.40 -22.49 19.96 -17.90 Q21.23 -14.17 21.63 -9.43 L23.40 -9.43 L23.40 -2.26 L21.07 -2.26 Q21.02 -2.24 21.00 -2.24 Z M39.96 -9.31 Q42.65 -9.31 45.98 -11.89 Q48.98 -14.13 50.59 -15.44 Q58.14 -22.02 60.67 -22.02 Q63.09 -22.02 65.94 -20.71 Q73.17 -16.16 73.17 -12.21 Q73.12 -8.34 69.51 -3.01 Q69.08 -2.26 66.57 -2.26 L37.79 -2.26 Q32.05 -2.26 29.16 -3.98 Q26.60 -2.26 23.49 -2.26 L22.04 -2.26 L22.04 -9.43 Q28.66 -9.25 29.16 -10.06 Q29.52 -10.47 29.52 -12.18 Q29.52 -13.97 29.32 -14.83 L33.57 -19.15 Q33.66 -18.74 33.73 -18.08 Q33.79 -17.43 33.77 -16.52 Q33.77 -15.73 33.58 -14.57 Q33.39 -13.40 33.16 -12.48 Q32.93 -11.55 32.73 -10.97 Q32.53 -10.40 32.53 -10.19 Q32.59 -9.90 33.50 -9.61 Q34.40 -9.31 39.96 -9.31 Z M69.37 -10.26 Q69.37 -11.57 65.80 -13.40 Q62.41 -15.17 60.99 -15.17 Q55.45 -15.17 51.29 -12.34 Q48.15 -9.95 48.15 -8.95 Q48.44 -8.84 51.03 -8.71 Q53.62 -8.59 61.32 -8.59 Q69.37 -8.59 69.37 -10.26 Z M84.81 -7.10 L80.06 -0.00 L80.06 -29.32 L84.81 -35.71 Z M111.30 -10.13 Q111.30 -2.06 107.10 4.52 Q102.26 12.88 96.00 12.88 Q93.06 12.88 88.95 10.26 Q86.62 8.63 85.06 7.21 Q83.50 5.79 82.23 2.85 Q84.04 4.34 87.05 5.13 Q90.10 5.99 92.34 6.01 Q94.71 5.99 98.50 4.28 Q102.28 2.58 104.08 0.64 Q105.88 -1.29 107.08 -4.11 Q106.83 -4.09 106.61 -4.08 Q106.40 -4.07 106.19 -4.07 Q102.76 -4.07 98.82 -5.38 Q94.89 -6.69 94.89 -8.84 Q94.89 -15.37 97.83 -20.64 Q100.61 -25.14 103.21 -25.14 Q106.22 -25.14 108.76 -20.04 Q111.30 -14.94 111.30 -10.13 Z M106.83 -11.66 Q106.80 -12.52 105.42 -14.39 Q104.05 -16.25 103.03 -16.81 Q102.01 -17.36 101.08 -17.36 Q100.59 -17.36 100.10 -17.02 Q99.62 -16.68 99.22 -16.14 Q98.82 -15.60 98.60 -14.94 Q98.37 -14.29 98.37 -13.72 Q98.37 -12.61 101.49 -11.83 Q104.61 -11.05 105.58 -11.05 Q106.83 -11.05 106.83 -11.66 Z M130.99 -6.80 Q130.99 0.57 127.62 5.40 Q123.06 11.87 118.56 11.87 Q115.17 11.87 111.88 8.53 Q108.59 5.20 107.41 1.76 L108.63 2.51 Q109.88 3.19 110.84 3.66 Q111.80 4.14 112.70 4.43 Q113.61 4.72 114.57 4.85 Q115.53 4.97 116.77 4.95 Q121.29 4.72 124.56 0.63 Q127.83 -3.46 127.83 -4.70 Q127.78 -7.44 122.33 -12.23 L125.41 -18.74 Q126.79 -17.38 127.89 -16.25 Q129.00 -15.12 129.76 -13.64 Q130.52 -12.16 130.75 -10.26 Q130.99 -8.36 130.99 -6.80 Z" fill="#F8FAFC"/>
+
+  <!-- Center: Concrete, Footnote-Anchored Copy (Zero AI Slogans) -->
+  <g transform="translate(465, 118)">
+    <rect x="0" y="0" width="315" height="32" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+    <circle cx="18" cy="16" r="4.5" fill="#10B981"/>
+    <text x="34" y="21" fill="#94A3B8" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.2">TADAWUL · NOMU · SEC EDGAR</text>
+
+    <text x="0" y="112" fill="#F8FAFC" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="76" font-weight="700" letter-spacing="-2">RAWASED</text>
+    <text x="395" y="110" fill="#94A3B8" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="400">|</text>
+    <text x="430" y="112" fill="#F8FAFC" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="68" font-weight="700">رواصد</text>
+
+    <text x="0" y="168" fill="#F8FAFC" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="25" font-weight="600">Audited filings, reconciled to the footnote.</text>
+    <text x="0" y="205" fill="#94A3B8" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="16.5" font-weight="400">When a quote feed and Note 14 disagree, we show the diff, the Zakat base, the Murabaha stack, and the math.</text>
+
+    <g transform="translate(0, 236)">
+      <rect x="0" y="0" width="136" height="34" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+      <text x="68" y="22" fill="#F8FAFC" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">DISAGREES</text>
+
+      <rect x="148" y="0" width="142" height="34" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+      <text x="219" y="22" fill="#F8FAFC" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">CAST + DDIS</text>
+
+      <rect x="302" y="0" width="164" height="34" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+      <text x="384" y="22" fill="#F8FAFC" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">ZAKAT + EOSB</text>
+
+      <rect x="478" y="0" width="148" height="34" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+      <text x="552" y="22" fill="#F8FAFC" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">REVERSE DCF</text>
+
+      <rect x="638" y="0" width="136" height="34" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1.5"/>
+      <text x="706" y="22" fill="#10B981" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">18-TOOL MCP</text>
     </g>
-    <text x="222" y="212" fill="#10B981" font-family="'JetBrains Mono', 'SF Mono', Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.4">SAUDI (TADAWUL) &amp; US (NYSE / NASDAQ / SEC) TERMINAL</text>
-    <text x="222" y="242" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">Audited Filing Reconciliation · CAST &amp; DDIS Credit · ZATCA Zakat &amp; DCF</text>
   </g>
-  <!-- Vertical Divider before 4x4 Geometric Tile Matrix -->
-  <line x1="904" y1="40" x2="904" y2="300" stroke="#1E293B" stroke-width="1.5"/>
-  <!-- Right: 4x4 Candlestick Vault Geometric Pattern -->
-  <g transform="translate(936, 33)" opacity="0.95">
-    
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(180 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
 
-      <g transform="translate(70, 0)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(270 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(140, 0)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(0 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(210, 0)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(90 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(0, 70)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(180 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(70, 70)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(270 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(140, 70)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(0 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(210, 70)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(90 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(0, 140)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(270 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(70, 140)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(0 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(140, 140)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(90 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(210, 140)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(180 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(0, 210)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(180 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(70, 210)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(270 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(140, 210)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(0 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
-
-      <g transform="translate(210, 210)">
-        <rect x="0" y="0" width="64" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-        <svg x="2" y="2" width="60" height="60" viewBox="0 0 100 100">
-          <g transform="rotate(90 50 50)">
-            <path d="M 42.5 44 V 88 H 17 Q 8.5 88 8.5 79.5 V 20.5 Q 8.5 12 17 12 H 83 Q 91.5 12 91.5 20.5 V 79.5 Q 91.5 88 83 88 H 57.5 V 26" stroke="#F8FAFC" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
-    <line x1="42.5" y1="30" x2="42.5" y2="44.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-    <line x1="57.5" y1="17.5" x2="57.5" y2="26.5" stroke="#10B981" stroke-width="2.8" stroke-linecap="butt"/>
-          </g>
-        </svg>
-      </g>
+  
+  <g transform="translate(1320,146)">
+    <rect width="96" height="96" rx="16" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+      <g transform="rotate(0 50 50)"><!-- Left Vault Arm: wraps Bottom-Left-Top and plunges DOWN (x=37.5..45.5) with 45-deg shear -->
+    <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="#F8FAFC"/>
+    <!-- Left Down-Impulse 45-deg Kinetic Facet -->
+    <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="#F43F5E"/>
+    <!-- Right Vault Arm: wraps Top-Right-Bottom and surges UP (x=54.5..62.5) with 45-deg shear -->
+    <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="#F8FAFC"/>
+    <!-- Right Up-Impulse 45-deg Kinetic Facet -->
+    <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="#10B981"/></g>
+    </svg>
   </g>
+  <g transform="translate(1428,146)">
+    <rect width="96" height="96" rx="16" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+      <g transform="rotate(90 50 50)"><!-- Left Vault Arm: wraps Bottom-Left-Top and plunges DOWN (x=37.5..45.5) with 45-deg shear -->
+    <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="#F8FAFC"/>
+    <!-- Left Down-Impulse 45-deg Kinetic Facet -->
+    <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="#F43F5E"/>
+    <!-- Right Vault Arm: wraps Top-Right-Bottom and surges UP (x=54.5..62.5) with 45-deg shear -->
+    <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="#F8FAFC"/>
+    <!-- Right Up-Impulse 45-deg Kinetic Facet -->
+    <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="#10B981"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1320,254)">
+    <rect width="96" height="96" rx="16" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+      <g transform="rotate(270 50 50)"><!-- Left Vault Arm: wraps Bottom-Left-Top and plunges DOWN (x=37.5..45.5) with 45-deg shear -->
+    <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="#F8FAFC"/>
+    <!-- Left Down-Impulse 45-deg Kinetic Facet -->
+    <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="#F43F5E"/>
+    <!-- Right Vault Arm: wraps Top-Right-Bottom and surges UP (x=54.5..62.5) with 45-deg shear -->
+    <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="#F8FAFC"/>
+    <!-- Right Up-Impulse 45-deg Kinetic Facet -->
+    <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="#10B981"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1428,254)">
+    <rect width="96" height="96" rx="16" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+      <g transform="rotate(180 50 50)"><!-- Left Vault Arm: wraps Bottom-Left-Top and plunges DOWN (x=37.5..45.5) with 45-deg shear -->
+    <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="#F8FAFC"/>
+    <!-- Left Down-Impulse 45-deg Kinetic Facet -->
+    <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="#F43F5E"/>
+    <!-- Right Vault Arm: wraps Top-Right-Bottom and surges UP (x=54.5..62.5) with 45-deg shear -->
+    <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="#F8FAFC"/>
+    <!-- Right Up-Impulse 45-deg Kinetic Facet -->
+    <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="#10B981"/></g>
+    </svg>
+  </g>
+  <text x="1424" y="388" fill="#94A3B8" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">0° · 90° · 180° · 270°</text>
 </svg>
