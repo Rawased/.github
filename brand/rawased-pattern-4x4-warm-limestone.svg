@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" fill="none">
+  <rect width="1024" height="1024" rx="48" fill="#F5F2EB"/>
+  <g transform="translate(28,28) scale(2.2400)">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(276,28) scale(2.2400)">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(524,28) scale(2.2400)">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(772,28) scale(2.2400)">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(28,276) scale(2.2400)">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(276,276) scale(2.2400)">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(524,276) scale(2.2400)">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(772,276) scale(2.2400)">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(28,524) scale(2.2400)">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(276,524) scale(2.2400)">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(524,524) scale(2.2400)">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(772,524) scale(2.2400)">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(28,772) scale(2.2400)">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(276,772) scale(2.2400)">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(524,772) scale(2.2400)">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(772,772) scale(2.2400)">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+</svg>

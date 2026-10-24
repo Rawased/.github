@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" fill="none">
+  <rect width="1280" height="360" rx="24" fill="#F5F2EB"/>
+  <g transform="translate(880,22) scale(0.76)" opacity="0.22">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(964,22) scale(0.76)" opacity="0.22">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1048,22) scale(0.76)" opacity="0.22">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1132,22) scale(0.76)" opacity="0.22">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(880,106) scale(0.76)" opacity="0.22">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(964,106) scale(0.76)" opacity="0.22">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1048,106) scale(0.76)" opacity="0.22">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1132,106) scale(0.76)" opacity="0.22">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(880,190) scale(0.76)" opacity="0.22">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(964,190) scale(0.76)" opacity="0.22">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1048,190) scale(0.76)" opacity="0.22">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1132,190) scale(0.76)" opacity="0.22">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(880,274) scale(0.76)" opacity="0.22">
+    <g transform="rotate(180 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(964,274) scale(0.76)" opacity="0.22">
+    <g transform="rotate(270 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1048,274) scale(0.76)" opacity="0.22">
+    <g transform="rotate(0 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(1132,274) scale(0.76)" opacity="0.22">
+    <g transform="rotate(90 50 50)">
+      <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.8" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(64, 96) scale(1.68)">
+    <rect width="100" height="100" rx="18" fill="#141413" opacity="0.08"/>
+    <path d="M49.5 39 V88 H17 Q8.5 88 8.5 79.5 V20.5 Q8.5 12 17 12 H83 Q91.5 12 91.5 20.5 V79.5 Q91.5 88 83 88 H62.5 V20" stroke="#141413" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+  </g>
+  <text x="268" y="168" fill="#141413" font-family="-apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-0.03em">RAWASED | رواصد</text>
+  <text x="270" y="214" fill="#141413" opacity="0.72" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="600" letter-spacing="0.06em">SAUDI (TADAWUL) &amp; US (NYSE / NASDAQ / SEC) FILING &amp; QUANT TERMINAL</text>
+  <text x="270" y="252" fill="#141413" opacity="0.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="500">CFA Material Public Information Mosaic Engine · CAST &amp; DDIS · Zero-Advice Safe Harbor</text>
+</svg>
