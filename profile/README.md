@@ -7,10 +7,10 @@
 
   <br/>
 
-  <h2>Rawased (رواصد) · Audited filings, reconciled to the footnote.</h2>
+  <h2>Rawased (رواصد) · Price feeds miss the footnotes. Rawased reads them.</h2>
 
   <p>
-    When a quote feed and Note 14 disagree, we show the diff (<code>DISAGREES</code>), the Zakat base, the Murabaha and Sukuk stack (<code>CAST</code> / <code>DDIS</code>), Saudi <code>EOSB</code>, and the Reverse DCF math.
+    Pull up Luberef (<code>2223.SR</code>) on a standard market feed and Q3 net income reads SAR 212.00M. Open Note 14 of the audited Tadawul filing and the real figure is SAR 238.45M, because the feed dropped a quarterly restatement. Rawased checks every Saudi and US line item against the audited filing first, splits Murabaha and Sukuk from leases and End-of-Service Benefits, and calculates Zakat and cash flow from the actual notes.
   </p>
 
   <p>
@@ -84,5 +84,5 @@ gemini extensions install https://github.com/Rawased/rawased-mcp
 ---
 
 <div align="center">
-  <sub>© 2026 Rawased (رواصد) · Riyadh, Kingdom of Saudi Arabia · Founders: <a href="mailto:waleed@rawased.com">waleed@rawased.com</a> &amp; <a href="mailto:abdulmohsen@rawased.com">abdulmohsen@rawased.com</a> · Support: <a href="mailto:help@rawased.com">help@rawased.com</a></sub>
+  <sub>© 2026 Rawased (رواصد) · Riyadh, Kingdom of Saudi Arabia · Founders: Waleed Alogayel (<a href="mailto:waleed@rawased.com">waleed@rawased.com</a>) &amp; Abdulmohsen Alhassan (<a href="mailto:abdulmohsen@rawased.com">abdulmohsen@rawased.com</a>) · Support: <a href="mailto:help@rawased.com">help@rawased.com</a></sub>
 </div>

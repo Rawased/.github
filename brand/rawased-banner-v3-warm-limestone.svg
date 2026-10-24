@@ -29,8 +29,8 @@
     <text x="395" y="110" fill="#57534E" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="400">|</text>
     <text x="430" y="112" fill="#1C1917" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="68" font-weight="700">رواصد</text>
 
-    <text x="0" y="168" fill="#1C1917" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="25" font-weight="600">Audited filings, reconciled to the footnote.</text>
-    <text x="0" y="205" fill="#57534E" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="16.5" font-weight="400">When a quote feed and Note 14 disagree, we show the diff, the Zakat base, the Murabaha stack, and the math.</text>
+    <text x="0" y="168" fill="#1C1917" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="25" font-weight="600">Price feeds miss the footnotes. Rawased reads them.</text>
+    <text x="0" y="205" fill="#57534E" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="16" font-weight="400">Luberef Q3 profit reads SAR 212.00M on a quote feed and SAR 238.45M in Note 14 of the audited Tadawul filing.</text>
 
     <g transform="translate(0, 236)">
       <rect x="0" y="0" width="136" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
