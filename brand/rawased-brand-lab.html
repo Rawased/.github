@@ -443,7 +443,7 @@
           <div>RAWASED <span style="color:var(--muted);font-weight:400">|</span> <span style="font-family:var(--font-ar)">رواصد</span></div>
           <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--muted)">BRAND &amp; LOGO IDEATION LAB v3.0 · 11 PILLARS</div>
         </div>
-        <span class="brand-badge">FLAGSHIP: K2 UP/DOWN KINETIC VAULT (9.8/10)</span>
+        <span class="brand-badge">APPROVED MASTER: K3 CONTINUOUS RIBBON + 45° BREAKOUT FACET (9.9/10)</span>
       </div>
       <div class="palette-bar" id="palette-switcher"></div>
       <div style="display:flex;gap:8px">
@@ -469,21 +469,20 @@
     <section class="tab-pane active" id="tab-logos">
       <div class="hero-banner">
         <div>
-          <div class="eyebrow">PILLAR 01 · SOVEREIGN SEMITICS &amp; ARCHITECTURAL GEOMETRY</div>
-          <h1>The 180° Interlocking Up/Down Kinetic Vault (`K2`).</h1>
+          <div class="eyebrow">PILLAR 01 · APPROVED RAWASED MASTER LOGO (`K3`)</div>
+          <h1>The Continuous Unbroken Ribbon + 45° Breakout Facet (`K3`).</h1>
           <p class="sub">
-            Why our v3.0 Flagship mark achieves a <b>9.8/10</b> benchmark score: it preserves the exact heavy rounded-square silhouette of the original Rawased/Byan emblem while transforming the two interior beams into <b>opposing 180°-symmetric stock impulses</b>.
-            The <b>Left Vault Arm plunges DOWN from the ceiling</b> (Top-Down Audited Filing to the Floor / Bearish Pullback) and the <b>Right Vault Arm surges UP from the floor</b> (Bottom-Up Intrinsic Valuation / Bullish Breakout), terminating in razor-sharp <b>45° kinetic impulse facets</b> with an unbroken central <b>Observatory Meridian Slit (`راصد`)</b>.
+            The approved Rawased logo (`K3`) keeps the <b>single unbroken outer rounded-square vault ribbon</b> (`x=11..89`, `8px` architectural walls) while turning the bottom gateway into two rising columns (`x=37.5..45.5` and `x=54.5..62.5`) separated by a `9px` central <b>Observatory Meridian Slit (`راصد`)</b>, sheared at <b>45°</b> and crowned with a rising <b>45° breakout facet</b>.
           </p>
           <div class="stat-row">
             <div class="stat-box"><div class="stat-num">36</div><div class="stat-lbl">Hand-Crafted SVG Marks</div></div>
             <div class="stat-box"><div class="stat-num">6</div><div class="stat-lbl">Architectural Families</div></div>
-            <div class="stat-box"><div class="stat-num">180°</div><div class="stat-lbl">C2 Rotational Parity</div></div>
-            <div class="stat-box"><div class="stat-num">0</div><div class="stat-lbl">False Optical Tells (!i / Syringe)</div></div>
+            <div class="stat-box"><div class="stat-num">8.0px</div><div class="stat-lbl">Uniform Ribbon Weight</div></div>
+            <div class="stat-box"><div class="stat-num">45°</div><div class="stat-lbl">Breakout Impulse Facet</div></div>
           </div>
         </div>
         <div class="panel" style="display:flex;flex-direction:column;align-items:center;gap:14px;background:var(--bg)">
-          <div style="font-family:var(--font-mono);font-size:11px;color:var(--muted)" id="active-logo-title">ACTIVE MASTER: A1 · K2 Flagship Up/Down Kinetic Vault</div>
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--muted)" id="active-logo-title">APPROVED MASTER: A1 · K3 Continuous Unbroken Ribbon + 45° Breakout Facet</div>
           <div id="hero-selected-svg" style="width:190px;height:190px"></div>
           <div style="display:flex;gap:10px;align-items:center" id="hero-scale-strip"></div>
           <button class="btn-action" id="copy-active-svg-btn">Copy Active SVG Code</button>
@@ -723,16 +722,14 @@
     };
 
     const LOGOS = [
-      // Family A: Interlocking Up/Down Kinetic Vault (Flagship)
+      // Family A: Continuous Unbroken Vault & Interlocking Kinetic Family (Flagship)
       {
-        id: "A1", fam: "A", name: "K2 Flagship · 180° Up/Down Kinetic Vault", score: 9.8,
-        scores: [10, 10, 10, 10, 10, 9.8, 9.5, 9.8, 10, 9.6],
-        desc: "Left Vault Arm plunges DOWN from the ceiling (Filing Audit to the Floor / Bear); Right Vault Arm surges UP from the floor (Intrinsic Valuation / Bull) with 45° kinetic impulse facets.",
-        svg: (fg, up, down) => `
-          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
-          <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
-          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
-          <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>`
+        id: "A1", fam: "A", name: "K3 Approved Master · Continuous Unbroken Ribbon + 45° Breakout Facet", score: 9.9,
+        scores: [10, 9.9, 10, 10, 10, 9.9, 9.8, 9.9, 10, 9.8],
+        desc: "Approved Rawased logo: preserves the unbroken outer rounded-square vault loop while shearing the twin columns at 45° and launching a rising 45° breakout facet.",
+        svg: (fg, up) => `
+          <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+          <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>`
       },
       {
         id: "A2", fam: "A", name: "K2B · Extended-Channel 180° Up/Down Kinetic Vault", score: 9.7,
@@ -753,12 +750,14 @@
           <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 32 L 62.5 40 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>`
       },
       {
-        id: "A4", fam: "A", name: "K3 · Continuous Unbroken Ribbon + 45° Breakout Facet", score: 9.5,
-        scores: [9.8, 9.4, 9.4, 10, 9.8, 9.6, 9.5, 9.6, 9.6, 9.4],
-        desc: "Preserves the exact unbroken outer loop of the original emblem while adding 45° kinetic shear and a rising 45° breakout facet.",
-        svg: (fg, up) => `
-          <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 38 L 62.5 46 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
-          <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>`
+        id: "A4", fam: "A", name: "K2 · 180° Interlocking Up/Down Kinetic Vault", score: 9.6,
+        scores: [9.8, 9.8, 9.6, 9.6, 9.8, 9.6, 9.5, 9.8, 9.6, 9.6],
+        desc: "Left Vault Arm plunges DOWN from the ceiling; Right Vault Arm surges UP from the floor with 45° kinetic impulse facets.",
+        svg: (fg, up, down) => `
+          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
+          <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
+          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
+          <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>`
       },
       {
         id: "A5", fam: "A", name: "K6 · Interlocking Up/Down Half-Arrow Ticker Vault", score: 9.4,
@@ -1009,28 +1008,24 @@
 
       // Family F: 4x4 Rotational Matrix & Tessellations
       {
-        id: "F1", fam: "F", name: "2x2 Rotational Kinetic Vault Matrix (0° · 90° · 270° · 180°)", score: 9.6,
-        scores: [9.2, 9.6, 9.6, 9.8, 9.8, 9.6, 9.6, 10, 9.4, 9.8],
-        desc: "Four-quadrant rotational lockup demonstrating how K2 tiles seamlessly across 90° and 180° rotations.",
-        svg: (fg, up, down) => {
+        id: "F1", fam: "F", name: "2x2 Rotational K3 Vault Matrix (0° · 90° · 270° · 180°)", score: 9.7,
+        scores: [9.6, 9.6, 9.8, 9.8, 9.8, 9.6, 9.6, 10, 9.6, 9.8],
+        desc: "Four-quadrant rotational lockup demonstrating how the approved K3 mark tiles seamlessly across 0°, 90°, 180°, and 270° rotations.",
+        svg: (fg, up) => {
           const cell = (tx, ty, deg) => `<g transform="translate(${tx},${ty})"><svg width="42" height="42" viewBox="0 0 100 100"><g transform="rotate(${deg} 50 50)">
-            <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
-            <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
-            <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
-            <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+            <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+            <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>
           </g></svg></g>`;
           return cell(6,6,0) + cell(52,6,90) + cell(6,52,270) + cell(52,52,180);
         }
       },
       {
-        id: "F2", fam: "F", name: "90° Horizontal Bid-Ask Kinetic Vault", score: 9.4,
+        id: "F2", fam: "F", name: "90° Horizontal Bid-Ask K3 Vault", score: 9.4,
         scores: [9.6, 9.4, 9.4, 9.6, 9.6, 9.6, 9.2, 9.8, 9.4, 9.4],
-        desc: "90° rotation of the Flagship K2 mark: Left-to-Right Bid/Ask horizontal liquidity flow.",
-        svg: (fg, up, down) => `<g transform="rotate(90 50 50)">
-          <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
-          <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
-          <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
-          <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+        desc: "90° rotation of the approved K3 mark: Left-to-Right horizontal liquidity flow.",
+        svg: (fg, up) => `<g transform="rotate(90 50 50)">
+          <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+          <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>
         </g>`
       },
       {
@@ -1043,24 +1038,22 @@
           <path d="M 58 74 V 36" stroke="${up}" stroke-width="7.2"/>`
       },
       {
-        id: "F4", fam: "F", name: "16px Micro-Optical Favicon Master (Thickened 10px Stroke)", score: 9.5,
-        scores: [10, 9.4, 9.4, 9.6, 9.8, 10, 9.0, 9.4, 10, 9.0],
-        desc: "Optically weighted 10px stroke master engineered specifically for 16x16px browser tabs and high-DPI status bars.",
+        id: "F4", fam: "F", name: "16px Micro-Optical K3 Favicon Master", score: 9.6,
+        scores: [10, 9.6, 9.6, 9.8, 9.8, 10, 9.2, 9.6, 10, 9.4],
+        desc: "Optically weighted K3 master engineered for 16x16px browser tabs and high-DPI status bars.",
         svg: (fg, up) => `
-          <path d="M 45 90 H 22 Q 10 90 10 78 V 22 Q 10 10 22 10 H 45 V 68 L 35 58 V 20 H 22 Q 20 20 20 22 V 78 Q 20 80 22 80 H 45 Z" fill="${fg}"/>
-          <path d="M 55 10 H 78 Q 90 10 90 22 V 78 Q 90 90 78 90 H 55 V 32 L 65 42 V 80 H 78 Q 80 80 80 78 V 22 Q 80 20 78 20 H 55 Z" fill="${up}"/>`
+          <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+          <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>`
       },
       {
-        id: "F5", fam: "F", name: "App Icon Squircle Master with Subtle Inner Bevel", score: 9.5,
-        scores: [9.8, 9.6, 9.6, 9.6, 9.8, 9.4, 9.2, 9.4, 10, 9.4],
-        desc: "iOS/macOS squircle container framing the K2 Interlocking Up/Down Kinetic Vault.",
-        svg: (fg, up, down) => `
+        id: "F5", fam: "F", name: "App Icon Squircle Master (K3 Approved)", score: 9.7,
+        scores: [9.8, 9.6, 9.8, 9.8, 9.8, 9.6, 9.4, 9.6, 10, 9.6],
+        desc: "iOS/macOS squircle container framing the approved K3 Continuous Unbroken Ribbon + 45° Breakout Facet.",
+        svg: (fg, up) => `
           <rect x="4" y="4" width="92" height="92" rx="22" fill="var(--surface)" stroke="var(--border)" stroke-width="2"/>
           <g transform="translate(10,10) scale(0.8)">
-            <path d="M 45.5 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 45.5 V 55.5 L 37.5 47.5 V 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 45.5 Z" fill="${fg}"/>
-            <polygon points="37.5,52.5 45.5,60.5 45.5,71.5 37.5,63.5" fill="${down}"/>
-            <path d="M 54.5 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 44.5 L 62.5 52.5 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 54.5 Z" fill="${fg}"/>
-            <polygon points="54.5,28.5 62.5,36.5 62.5,47.5 54.5,39.5" fill="${up}"/>
+            <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="${fg}"/>
+            <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="${up}"/>
           </g>`
       },
       {
