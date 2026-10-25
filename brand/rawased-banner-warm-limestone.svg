@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500">
   <rect width="1600" height="500" rx="28" fill="#F5F2EB"/>
-  <rect x="16" y="16" width="1568" height="468" rx="20" fill="none" stroke="#D6CFC2" stroke-width="2"/>
-  <line x1="420" y1="16" x2="420" y2="484" stroke="#D6CFC2" stroke-width="1.5" stroke-dasharray="6 6"/>
-  <line x1="1275" y1="16" x2="1275" y2="484" stroke="#D6CFC2" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <rect x="16" y="16" width="1568" height="468" rx="22" fill="none" stroke="#D6CFC2" stroke-width="1.5"/>
 
-  <!-- Left: Pure Master Mark (No Grey Corner Ticks) -->
-  <g transform="translate(75, 95)">
-    <rect width="300" height="300" rx="52" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="3"/>
-    <svg x="26" y="26" width="248" height="248" viewBox="0 0 100 100">
+  <!-- Left: Sleek K3 Master Badge -->
+  <g transform="translate(96, 162)">
+    <rect width="176" height="176" rx="36" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="2"/>
+    <svg x="18" y="18" width="140" height="140" viewBox="0 0 100 100">
       <!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
     <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
     <!-- K3 45-Deg Breakout Facet -->
@@ -15,73 +13,147 @@
     </svg>
   </g>
 
-  <!-- Center: Concrete, Footnote-Anchored Copy (Zero AI Slogans) -->
-  <g transform="translate(465, 118)">
-    <rect x="0" y="0" width="315" height="32" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-    <circle cx="18" cy="16" r="4.5" fill="#059669"/>
-    <text x="34" y="21" fill="#57534E" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.2">TADAWUL · NOMU · SEC EDGAR</text>
+  <!-- Center: Clean Institutional Wordmark & Two-Line Hierarchy (Zero Pill Clutter) -->
+  <g transform="translate(312, 166)">
+    <text x="0" y="68" fill="#1C1917" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5">RAWASED</text>
+    <line x1="336" y1="16" x2="336" y2="74" stroke="#D6CFC2" stroke-width="2"/>
+    <text x="364" y="68" fill="#1C1917" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="58" font-weight="700">رواصد</text>
 
-    <text x="0" y="112" fill="#1C1917" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="76" font-weight="700" letter-spacing="-2">RAWASED</text>
-    <text x="395" y="110" fill="#57534E" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="400">|</text>
-    <text x="430" y="112" fill="#1C1917" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="68" font-weight="700">رواصد</text>
-
-    <text x="0" y="168" fill="#1C1917" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="25" font-weight="600">Price feeds miss the footnotes. Rawased reads them.</text>
-    <text x="0" y="205" fill="#57534E" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="16" font-weight="400">Luberef Q3 profit reads SAR 212.00M on a quote feed and SAR 238.45M in Note 14 of the audited Tadawul filing.</text>
-
-    <g transform="translate(0, 236)">
-      <rect x="0" y="0" width="136" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-      <text x="68" y="22" fill="#1C1917" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">DISAGREES</text>
-
-      <rect x="148" y="0" width="142" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-      <text x="219" y="22" fill="#1C1917" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">CAST + DDIS</text>
-
-      <rect x="302" y="0" width="164" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-      <text x="384" y="22" fill="#1C1917" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">ZAKAT + EOSB</text>
-
-      <rect x="478" y="0" width="148" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-      <text x="552" y="22" fill="#1C1917" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">REVERSE DCF</text>
-
-      <rect x="638" y="0" width="136" height="34" rx="6" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="1.5"/>
-      <text x="706" y="22" fill="#059669" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" text-anchor="middle">18-TOOL MCP</text>
-    </g>
+    <text x="2" y="114" fill="#1C1917" font-family="-apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="13.5" font-weight="600" letter-spacing="2.4">SAUDI (TADAWUL · NOMU) &amp; US (SEC EDGAR) FINANCIAL TERMINAL</text>
+    <text x="2" y="146" fill="#57534E" font-family="-apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="16" font-weight="400">Price feeds miss the footnotes. Rawased reads them. · CAST · DDIS · Zakat · Reverse DCF</text>
   </g>
 
+  <!-- Subtle Vertical Divider -->
+  <line x1="1076" y1="76" x2="1076" y2="424" stroke="#D6CFC2" stroke-width="1.5"/>
+
+  <!-- Right: Full 4x4 Frameless K3 Rotational Matrix -->
   
-  <g transform="translate(1320,146)">
-    <rect width="96" height="96" rx="16" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="2"/>
-    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+  <g transform="translate(1136,70)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
       <g transform="rotate(0 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
     <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
     <!-- K3 45-Deg Breakout Facet -->
     <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
     </svg>
   </g>
-  <g transform="translate(1428,146)">
-    <rect width="96" height="96" rx="16" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="2"/>
-    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+  <g transform="translate(1224,70)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
       <g transform="rotate(90 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
     <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
     <!-- K3 45-Deg Breakout Facet -->
     <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
     </svg>
   </g>
-  <g transform="translate(1320,254)">
-    <rect width="96" height="96" rx="16" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="2"/>
-    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
-      <g transform="rotate(270 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
-    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
-    <!-- K3 45-Deg Breakout Facet -->
-    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
-    </svg>
-  </g>
-  <g transform="translate(1428,254)">
-    <rect width="96" height="96" rx="16" fill="#EBE6DC" stroke="#D6CFC2" stroke-width="2"/>
-    <svg x="10" y="10" width="76" height="76" viewBox="0 0 100 100">
+  <g transform="translate(1312,70)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
       <g transform="rotate(180 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
     <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
     <!-- K3 45-Deg Breakout Facet -->
     <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
     </svg>
   </g>
-  <text x="1424" y="388" fill="#57534E" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">0° · 90° · 180° · 270°</text>
+  <g transform="translate(1400,70)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(270 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1136,158)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(180 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1224,158)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(270 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1312,158)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(0 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1400,158)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(90 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1136,246)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(90 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1224,246)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(180 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1312,246)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(270 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1400,246)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(0 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1136,334)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(270 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1224,334)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(0 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1312,334)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(90 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
+  <g transform="translate(1400,334)">
+    <svg x="0" y="0" width="92" height="92" viewBox="0 0 100 100">
+      <g transform="rotate(180 50 50)"><!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#1C1917"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#059669"/></g>
+    </svg>
+  </g>
 </svg>
