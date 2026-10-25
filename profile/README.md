@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png?v=k3-v2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-light-1600x500.png?v=k3-v2">
-    <img alt="Rawased | رواصد - Price feeds miss the footnotes. Rawased reads them." src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png?v=k3-v2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png?v=k3-v3">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-light-1600x500.png?v=k3-v3">
+    <img alt="Rawased | رواصد - Price feeds miss the footnotes. Rawased reads them." src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-banner-v3-bw-dark-1600x500.png?v=k3-v3" width="100%">
   </picture>
 
   <br/>
@@ -24,12 +24,12 @@
 
 ---
 
-### 1. Approved `K3` Brand Identity (Continuous Unbroken Ribbon + 45° Breakout Facet)
+### 1. Approved `K3` Brand Identity (`#FFFFFF` on `#0B0F14` & `#0B0F14` on `#FAFAFA`)
 
-| `K3` Monochrome Dark (`1024px`) | `K3` Sovereign Slate + `#10B981` Facet | `K3` Frameless `4x4` Rotational Matrix | `K3` Midnight Indigo `4x4` Matrix |
+| `K3` Master Icon (`brand/logo/icon-1024.png`) | `K3` Light Mark (`rawased-mark-bw-light-1024.png`) | `K3` `4x4` Rotational Matrix (Dark) | `K3` `4x4` Rotational Matrix (Light) |
 | :---: | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-mark-bw-dark-1024.png?v=k3-v2" width="136" alt="K3 Monochrome Dark"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-mark-sovereign-slate-1024.png?v=k3-v2" width="136" alt="K3 Sovereign Slate"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-pattern-4x4-bw-dark-1200.png?v=k3-v2" width="136" alt="K3 4x4 B&W Dark"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-pattern-4x4-midnight-indigo-1200.png?v=k3-v2" width="136" alt="K3 4x4 Midnight Indigo"/> |
-| [`rawased-mark-bw-dark.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-mark-bw-dark.svg) | [`rawased-mark-sovereign-slate.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-mark-sovereign-slate.svg) | [`rawased-pattern-4x4-bw-dark.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-pattern-4x4-bw-dark.svg) | [`rawased-pattern-4x4-midnight-indigo.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-pattern-4x4-midnight-indigo.svg) |
+| <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/logo/icon-1024.png?v=k3-v3" width="132" alt="K3 Master Icon Dark"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-mark-bw-light-1024.png?v=k3-v3" width="132" alt="K3 Master Icon Light"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-pattern-4x4-bw-dark-1200.png?v=k3-v3" width="132" alt="K3 4x4 B&W Dark"/> | <img src="https://raw.githubusercontent.com/Rawased/.github/main/brand/rawased-pattern-4x4-bw-light-1200.png?v=k3-v3" width="132" alt="K3 4x4 B&W Light"/> |
+| [`brand/logo/icon.svg`](https://github.com/Rawased/.github/blob/main/brand/logo/icon.svg) · [`rawased-k3-512.png`](https://github.com/Rawased/.github/blob/main/brand/rawased-k3-512.png) | [`rawased-mark-bw-light.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-mark-bw-light.svg) | [`rawased-pattern-4x4-bw-dark.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-pattern-4x4-bw-dark.svg) | [`rawased-pattern-4x4-bw-light.svg`](https://github.com/Rawased/.github/blob/main/brand/rawased-pattern-4x4-bw-light.svg) |
 
 ---
 
@@ -74,7 +74,7 @@
 | [**`Rawased/rawased-python`**](https://github.com/Rawased/rawased-python) | **Public (SDK & CLI)** | Python client and CLI for reading Saudi Exchange (`TASI` / `Nomu`) and US SEC filing notes, Zakat splits, and debt/lease structures. |
 | [**`Rawased/rawased-mcp`**](https://github.com/Rawased/rawased-mcp) | **Public (MCP & Connect)** | Read-only Model Context Protocol (MCP) connector & plugin definitions (`stock_brief`, `disclosures`, `watchlist`, `alerts`, `screen`, `explain_filing`) with non-advisory guardrails. |
 | [**`Rawased/rawased-quant-specs`**](https://github.com/Rawased/rawased-quant-specs) | **Public (Open Specs)** | Open specifications and JSON schemas for filing-to-feed note comparison, ZATCA Zakat vs. foreign tax splits, Murabaha/sukuk/lease/EOSB separation, and cash-flow bridges. |
-| [**`Rawased/.github`**](https://github.com/Rawased/.github) | **Public (Brand & Org)** | Official Rawased `K3` geometric vector brand system (`1024px` marks, frameless `1200x1200` `4x4` rotated tile matrices, and `1600x500` banners across 6 palettes). |
+| [**`Rawased/.github`**](https://github.com/Rawased/.github) | **Public (Brand & Org)** | Official Rawased `K3` monochrome brand kit (`brand/logo/*` from `16px` favicon to `1024px` app icon, `4x4` rotated tile matrices, and `1600x500` banners). |
 
 ---
 

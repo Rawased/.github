@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Rawased (رواصد) · Brand &amp; Logo Ideation Lab v3.0</title>
   <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="/web/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/web/fonts/ibm-plex-sans-arabic-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/web/fonts/ibm-plex-sans-arabic-600.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/web/fonts/fonts.css" />
+  <link rel="stylesheet" href="/web/tokens.css" />
   <style>
     :root {
       --bg: #09090B;
@@ -17,16 +19,16 @@
       --border: #27272A;
       --fg: #FAFAFA;
       --muted: #A1A1AA;
-      --up-tick: #10B981;
-      --down-tick: #F43F5E;
-      --accent: #10B981;
-      --good: #10B981;
-      --warn: #D97706;
-      --bad: #F43F5E;
-      --font-sans: 'IBM Plex Sans', 'IBM Plex Sans Arabic', -apple-system, sans-serif;
-      --font-ar: 'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif;
-      --font-mono: 'IBM Plex Mono', monospace;
-      --font-display: 'Fraunces', Georgia, serif;
+      --up-tick: #22C3A6;
+      --down-tick: #FF7A59;
+      --accent: #5B9BFF;
+      --good: #22C3A6;
+      --warn: #F5B942;
+      --bad: #FF7A59;
+      --font-sans: "Geist", "IBM Plex Sans Arabic", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-ar: "IBM Plex Sans Arabic", "Geist", "SF Arabic", "Geeza Pro", Tahoma, sans-serif;
+      --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      --font-display: "Geist", "IBM Plex Sans Arabic", sans-serif;
     }
     * { box-sizing: border-box; }
     body {
@@ -341,9 +343,9 @@
       font-size: 11px;
       padding: 2px 8px;
       border-radius: 4px;
-      background: rgba(244,63,94,0.14);
-      color: #F43F5E;
-      border: 1px solid rgba(244,63,94,0.35);
+      background: rgba(255,122,89,0.14);
+      color: #FF7A59;
+      border: 1px solid rgba(255,122,89,0.35);
       margin-bottom: 6px;
     }
     .tell-good {
@@ -352,9 +354,9 @@
       font-size: 11px;
       padding: 2px 8px;
       border-radius: 4px;
-      background: rgba(16,185,129,0.14);
-      color: #10B981;
-      border: 1px solid rgba(16,185,129,0.35);
+      background: rgba(34,195,166,0.14);
+      color: #22C3A6;
+      border: 1px solid rgba(34,195,166,0.35);
       margin-bottom: 6px;
     }
     table.bench-table {
@@ -575,7 +577,7 @@
     <section class="tab-pane" id="tab-colors">
       <div class="eyebrow">PILLAR 04 · SOVEREIGN COLOR SYSTEM &amp; WCAG 2.2 CONTRAST FLOOR</div>
       <h1>Six Institutional Palettes + Semantic Signal Separation.</h1>
-      <p class="sub">Per <code>DESIGN.md</code>, structural chrome remains monochrome or deep slate while semantic color (`--good` `#10B981`, `--warn` `#D97706`, `--bad` `#F43F5E`) is reserved strictly for financial directionality and `DISAGREES` audit flags. Click any swatch to copy its hex code.</p>
+      <p class="sub">Structural chrome stays on the K3 neutrals. Direction uses <code>--up</code> <code>#22C3A6</code> and <code>--down</code> <code>#FF7A59</code> in dark mode (<code>#00796B</code> / <code>#C2410C</code> in light). Click any swatch to copy its hex code.</p>
       <div class="swatch-grid" id="color-swatches-grid" style="margin-top:20px"></div>
     </section>
 
@@ -586,7 +588,7 @@
       <div class="card-grid-2" style="margin-top:20px">
         <div class="panel">
           <div class="eyebrow">LATIN UI &amp; QUANT STACK</div>
-          <h2>IBM Plex Sans + IBM Plex Mono + Fraunces</h2>
+          <h2>Geist + IBM Plex Sans Arabic + Geist Mono</h2>
           <p class="sub">All financial tables, bridge waterfalls, and ticker ribbons enforce <code>font-variant-numeric: tabular-nums</code> so decimals, bps deltas, and negative parentheses align vertically to the pixel.</p>
           <pre class="code-pre">2223.SR  LUBEREF   SAR 116.50   +2.45%   ROIC 21.99%   DISAGREES (+1,109.2 bps)
 2222.SR  ARAMCO    SAR  27.85   +0.72%   ROIC 19.34%   RECONCILED (0.0 bps)
@@ -600,9 +602,9 @@
           </p>
           <div class="code-pre" style="direction:ltr;text-align:left">/* Mandatory Arabic CSS Law (DESIGN.md) */
 :lang(ar), [dir="rtl"] {
-  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   letter-spacing: normal !important;
-  line-height: 1.72;
+  line-height: 1.8;
 }</div>
         </div>
       </div>
@@ -713,12 +715,8 @@
 
   <script>
     const PALETTES = {
-      "bw-dark": { name: "B&W Dark", bg: "#09090B", surface: "#121215", surface2: "#18181C", border: "#27272A", fg: "#FAFAFA", muted: "#A1A1AA", up: "#FAFAFA", down: "#FAFAFA", contrast: "19.4:1 AAA" },
-      "sovereign-slate": { name: "Slate & Emerald", bg: "#0B0F17", surface: "#111827", surface2: "#1E293B", border: "#1F2937", fg: "#F8FAFC", muted: "#94A3B8", up: "#10B981", down: "#F43F5E", contrast: "17.8:1 AAA" },
-      "midnight-indigo": { name: "Midnight Indigo", bg: "#0D0B26", surface: "#151238", surface2: "#1E1B4B", border: "#29245C", fg: "#FFFFFF", muted: "#A5B4FC", up: "#34D399", down: "#818CF8", contrast: "18.1:1 AAA" },
-      "obsidian-emerald": { name: "Tadawul Obsidian", bg: "#06100C", surface: "#0B1D16", surface2: "#112A20", border: "#16382B", fg: "#ECFDF5", muted: "#6EE7B7", up: "#10B981", down: "#34D399", contrast: "17.2:1 AAA" },
+      "bw-dark": { name: "K3", bg: "#0B0F14", surface: "#121215", surface2: "#18181C", border: "#27272A", fg: "#FFFFFF", muted: "#A1A1AA", up: "#FFFFFF", down: "#FFFFFF", contrast: "19.4:1 AAA" },
       "bw-light": { name: "Paper B&W Light", bg: "#FAFAFA", surface: "#F4F4F5", surface2: "#E4E4E7", border: "#D4D4D8", fg: "#09090B", muted: "#52525B", up: "#09090B", down: "#09090B", contrast: "19.4:1 AAA" },
-      "warm-limestone": { name: "Diriyah Limestone", bg: "#F5F2EB", surface: "#EBE6DC", surface2: "#E0D9CC", border: "#D6CFC2", fg: "#1C1917", muted: "#57534E", up: "#059669", down: "#B45309", contrast: "15.6:1 AAA" }
     };
 
     const LOGOS = [
