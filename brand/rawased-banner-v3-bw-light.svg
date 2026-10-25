@@ -13,14 +13,15 @@
     </svg>
   </g>
 
-  <!-- Center: Clean Institutional Wordmark & Two-Line Hierarchy (Zero Pill Clutter) -->
-  <g transform="translate(312, 166)">
-    <text x="0" y="68" fill="#09090B" font-family="IBM Plex Sans, -apple-system, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5">RAWASED</text>
-    <line x1="336" y1="16" x2="336" y2="74" stroke="#E4E4E7" stroke-width="2"/>
-    <text x="364" y="68" fill="#09090B" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="58" font-weight="700">رواصد</text>
+  <!-- Center: Clean Institutional Wordmark & Bilingual Hierarchy (Zero Pill Clutter) -->
+  <g transform="translate(312, 152)">
+    <text x="0" y="64" fill="#09090B" font-family="Geist, IBM Plex Sans, -apple-system, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5">RAWASED</text>
+    <line x1="336" y1="12" x2="336" y2="70" stroke="#E4E4E7" stroke-width="2"/>
+    <text x="364" y="64" fill="#09090B" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="58" font-weight="700">رواصد</text>
 
-    <text x="2" y="114" fill="#09090B" font-family="-apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="13.5" font-weight="600" letter-spacing="2.4">SAUDI (TADAWUL · NOMU) &amp; US (SEC EDGAR) FINANCIAL TERMINAL</text>
-    <text x="2" y="146" fill="#52525B" font-family="-apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="16" font-weight="400">Price feeds miss the footnotes. Rawased reads them. · CAST · DDIS · Zakat · Reverse DCF</text>
+    <text x="2" y="110" fill="#09090B" font-family="Geist, -apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="20" font-weight="600">Price feeds miss the footnotes. Rawased reads them.</text>
+    <text x="2" y="142" fill="#09090B" font-family="IBM Plex Sans Arabic, Geeza Pro, sans-serif" font-size="19" font-weight="500">شاشات الأسعار تغفل الإيضاحات · رواصد تقرأها من المصدر</text>
+    <text x="2" y="174" fill="#52525B" font-family="Geist, -apple-system, SF Pro Text, Helvetica Neue, sans-serif" font-size="14" font-weight="500" letter-spacing="0.4">Saudi Exchange (Tadawul · Nomu) &amp; US SEC Filings · Murabaha · Sukuk · Leases · End-of-Service · Zakat</text>
   </g>
 
   <!-- Subtle Vertical Divider -->
