@@ -84,5 +84,5 @@ gemini extensions install https://github.com/Rawased/rawased-mcp
 ---
 
 <div align="center">
-  <sub>© 2026 Rawased (رواصد) · Riyadh, Kingdom of Saudi Arabia · Founders: Waleed Alogayel (<a href="mailto:waleed@rawased.com">waleed@rawased.com</a>) &amp; Abdulmohsen Alhassan (<a href="mailto:abdulmohsen@rawased.com">abdulmohsen@rawased.com</a>) · Support: <a href="mailto:help@rawased.com">help@rawased.com</a></sub>
+  <sub>© 2026 Rawased (رواصد) · Riyadh, Kingdom of Saudi Arabia · Founders: Waleed Alogayel / وليد العقيِّل (<a href="mailto:waleed@rawased.com">waleed@rawased.com</a>) &amp; Abdulmohsen Alhassan / عبدالمحسن الحسن (<a href="mailto:abdulmohsen@rawased.com">abdulmohsen@rawased.com</a>) · Support: <a href="mailto:help@rawased.com">help@rawased.com</a></sub>
 </div>
