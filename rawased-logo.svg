@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><rect width="100" height="100" rx="18" fill="#0B0F14"/><path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 38 L 62.5 46 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#FFFFFF"/><polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#FFFFFF"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#0B0F14"/>
+  <svg x="123" y="123" width="778" height="778" viewBox="0 0 100 100">
+    <!-- K3 Continuous Unbroken Vault Ribbon with 45-deg interior chevron and central meridian slit -->
+    <path d="M 37.5 50 L 45.5 42 V 89 H 22 Q 11 89 11 78 V 22 Q 11 11 22 11 H 78 Q 89 11 89 22 V 78 Q 89 89 78 89 H 54.5 V 39 L 62.5 47 V 81 H 77 Q 81 81 81 77 V 23 Q 81 19 77 19 H 23 Q 19 19 19 23 V 77 Q 19 81 23 81 H 37.5 Z" fill="#FFFFFF"/>
+    <!-- K3 45-Deg Breakout Facet -->
+    <polygon points="54.5,23 62.5,31 62.5,41 54.5,33" fill="#FFFFFF"/>
+  </svg>
+</svg>
